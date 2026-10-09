@@ -1,0 +1,43 @@
+# integration: the overlay of Mandate's test.integration (doc 9 §4, K43).
+# Use it on top of staging:
+#
+#   docker compose -p kervan-e2e-1 -f base.yml -f staging.yml -f integration.yml run --rm e2e
+#
+# - The default network is internal: no container has egress, and nothing is
+#   published to the host. Candidate code never runs with network.
+# - The e2e service runs the scenarios in ../e2e/scenarios with the
+#   kervan-voice-evals runner against http://voice:7000 and exits 0 or 1.
+# - With KERVAN_SRC pointing at a directory of candidate working copies, every
+#   service (and the runner) is built from those copies. Set KERVAN_TAG too, so
+#   the candidate images get their own tag.
+
+networks:
+  default:
+    internal: true
+
+services:
+  postgres:
+    ports: !reset []
+  core:
+    ports: !reset []
+  auth:
+    ports: !reset []
+  search:
+    ports: !reset []
+  mcp:
+    ports: !reset []
+  voice:
+    ports: !reset []
+
+  e2e:
+    image: kervan-voice-evals:${KERVAN_TAG:-local}
+    build: ${KERVAN_SRC:-../..}/kervan-voice-evals
+    command: ["run", "--voice-url", "http://voice:7000", "--scenarios", "/e2e/scenarios"]
+    volumes:
+      - ../e2e/scenarios:/e2e/scenarios:ro
+    depends_on:
+      voice:
+        condition: service_healthy
+      seed:
+        condition: service_completed_successfully
+    restart: "no"

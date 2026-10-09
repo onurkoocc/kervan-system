@@ -1,0 +1,16 @@
+# staging: the fixed seed the kervan-voice-evals scenarios and the end-to-end
+# scenarios in ../e2e assume (seed/staging.sql). Nothing is published: the
+# scenarios run inside the compose network (integration.yml adds the runner).
+#
+#   docker compose -p kervan-staging -f base.yml -f staging.yml up -d --build
+
+services:
+  logs-init:
+    environment:
+      KERVAN_ENV: staging
+  voice:
+    environment:
+      AGENT_MODE: scripted
+  seed:
+    environment:
+      KERVAN_ENV: staging

@@ -1,0 +1,23 @@
+id: e2e-reschedule-then-status
+description: >-
+  The customer reschedules with the correct code, then asks for the status in the same conversation.
+  The second answer comes from core's database, so it proves the write went through end to end:
+  the new estimated date and the event core appended.
+turns:
+  - I'd like to move the delivery of KRV10000102 to {{today+4}}. My verification code is 3307.
+  - Thanks. Where is my parcel KRV10000102 now?
+expect:
+  tool_calls:
+    - name: reschedule_delivery
+      arguments:
+        tracking_no: KRV10000102
+        new_date: "{{today+4}}"
+        verification_code: "3307"
+    - name: get_shipment
+      arguments:
+        tracking_no: KRV10000102
+  reply_contains:
+    - "Estimated delivery: {{today+4}}"
+    - "Delivery rescheduled to {{today+4}}"
+  forbidden_tools: [open_ticket]
+  final_state: done

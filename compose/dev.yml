@@ -1,0 +1,26 @@
+# dev: a developer's own environment. Every service port is published on
+# 127.0.0.1 only; the seed is small and hand-written (seed/dev.sql).
+#
+#   docker compose -p kervan-dev -f base.yml -f dev.yml up -d --build
+#   curl -s localhost:7000/converse -H 'content-type: application/json' \
+#        -d '{"conversation_id":"c1","utterance":"Where is KRV20000001?"}'
+
+services:
+  postgres:
+    ports: ["127.0.0.1:${KERVAN_DEV_PG_PORT:-5432}:5432"]
+  logs-init:
+    environment:
+      KERVAN_ENV: dev
+  core:
+    ports: ["127.0.0.1:8080:8080"]
+  auth:
+    ports: ["127.0.0.1:9000:9000"]
+  search:
+    ports: ["127.0.0.1:8001:8001"]
+  mcp:
+    ports: ["127.0.0.1:3001:3001"]
+  voice:
+    ports: ["127.0.0.1:7000:7000"]
+  seed:
+    environment:
+      KERVAN_ENV: dev

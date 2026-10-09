@@ -1,0 +1,18 @@
+id: e2e-status-lookup
+description: >-
+  A status lookup through the whole chain: voice gets a token from auth, calls get_shipment on mcp,
+  mcp accepts the token and asks core, and the reply carries the route and date from the staging seed.
+turns:
+  - Hi, where is my parcel KRV10000101?
+expect:
+  tool_calls:
+    - name: get_shipment
+      arguments:
+        tracking_no: KRV10000101
+  reply_contains:
+    - KRV10000101
+    - in transit
+    - to Ankara
+    - "Estimated delivery: {{today+3}}"
+  forbidden_tools: [reschedule_delivery, open_ticket]
+  final_state: done

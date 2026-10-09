@@ -1,0 +1,14 @@
+id: e2e-help-search
+description: >-
+  A general question: search_help through mcp reaches kervan-search, and the reply quotes the
+  best article of the knowledge base. No shipment tool is touched.
+turns:
+  - How do I reschedule a delivery?
+expect:
+  tool_calls:
+    - name: search_help
+  reply_contains:
+    - Here is what I found
+    - Rescheduling a delivery
+  forbidden_tools: [get_shipment, reschedule_delivery, open_ticket]
+  final_state: done

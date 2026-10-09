@@ -1,0 +1,79 @@
+name: ci
+
+# validate: every push and PR. Compose files resolve, the integration network
+#           is internal, scripts pass shellcheck, the pre-baked logs are clean.
+# e2e:      manual, because it builds all six services. Staging under
+#           integration.yml (internal network), the end-to-end scenarios, which
+#           also prove the seed SQL against core's real migrations.
+#
+# The sibling repositories are private: checking them out needs a read-only
+# token for onurkoocc/kervan-* in the secret KERVAN_REPOS_TOKEN.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      siblings_ref:
+        description: Branch, tag or SHA of the six sibling repositories
+        default: main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compose files resolve
+        working-directory: compose
+        run: |
+          for env in dev staging prod_sim; do
+            docker compose -p "kervan-$env" -f base.yml -f "$env.yml" config --quiet
+            echo "$env: ok"
+          done
+          docker compose -p kervan-e2e -f base.yml -f staging.yml -f integration.yml config --quiet
+          echo "staging + integration: ok"
+          test "$(docker compose -p kervan-e2e -f base.yml -f staging.yml -f integration.yml config --format json \
+                  | jq -r '.networks.default.internal')" = true
+          echo "integration network is internal"
+      - name: Shell scripts
+        run: shellcheck -x scripts/*.sh seed/*.sh
+      - name: Pre-baked prod_sim logs are JSON lines without personal data
+        run: |
+          for f in seed/prod_sim/logs/*.jsonl; do
+            jq -e 'has("ts") and has("level") and has("service") and has("msg")' "$f" >/dev/null
+          done
+          ! grep -nE '@|\+90|full_name|phone|email' seed/prod_sim/logs/*.jsonl
+
+  e2e:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: kervan-system
+      - uses: actions/checkout@v4
+        with: {repository: onurkoocc/kervan-auth, ref: "${{ inputs.siblings_ref }}", path: kervan-auth, token: "${{ secrets.KERVAN_REPOS_TOKEN }}"}
+      - uses: actions/checkout@v4
+        with: {repository: onurkoocc/kervan-mcp, ref: "${{ inputs.siblings_ref }}", path: kervan-mcp, token: "${{ secrets.KERVAN_REPOS_TOKEN }}"}
+      - uses: actions/checkout@v4
+        with: {repository: onurkoocc/kervan-core, ref: "${{ inputs.siblings_ref }}", path: kervan-core, token: "${{ secrets.KERVAN_REPOS_TOKEN }}"}
+      - uses: actions/checkout@v4
+        with: {repository: onurkoocc/kervan-search, ref: "${{ inputs.siblings_ref }}", path: kervan-search, token: "${{ secrets.KERVAN_REPOS_TOKEN }}"}
+      - uses: actions/checkout@v4
+        with: {repository: onurkoocc/kervan-voice, ref: "${{ inputs.siblings_ref }}", path: kervan-voice, token: "${{ secrets.KERVAN_REPOS_TOKEN }}"}
+      - uses: actions/checkout@v4
+        with: {repository: onurkoocc/kervan-voice-evals, ref: "${{ inputs.siblings_ref }}", path: kervan-voice-evals, token: "${{ secrets.KERVAN_REPOS_TOKEN }}"}
+      - name: Staging + integration, end-to-end scenarios
+        working-directory: kervan-system
+        run: scripts/e2e.sh
+      - name: Keep the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e2e-report
+          path: kervan-system/data/e2e/*.json
+          if-no-files-found: ignore

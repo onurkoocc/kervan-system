@@ -1,0 +1,6 @@
+# The scripts and seeds run inside Linux containers: keep LF on every checkout.
+*.sh     text eol=lf
+*.sql    text eol=lf
+*.jsonl  text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf

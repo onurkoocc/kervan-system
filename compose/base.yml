@@ -1,0 +1,179 @@
+# Kervan: every service, built from its sibling repository (SPEC §1, §2, §10).
+#
+# Use it with one environment overlay:
+#
+#   docker compose -p kervan-dev -f base.yml -f dev.yml up -d --build
+#
+# KERVAN_SRC  directory holding the kervan-* working copies (default ../..: this
+#             file lives in kervan-system/compose, the siblings sit next to
+#             kervan-system). Point it at candidate copies for test.integration.
+# KERVAN_TAG  tag of the images built here (default local), so candidate builds
+#             do not overwrite the images of the main copies.
+# KERVAN_ENV  dev | staging | prod_sim: which seed is applied. The overlays set it.
+
+x-logs-volume: &logs-volume logs:/var/log/kervan
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: kervan
+      POSTGRES_USER: kervan_core
+      POSTGRES_PASSWORD: kervan_core
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kervan_core -d kervan"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+      start_period: 10s
+      start_interval: 1s
+
+  # One-shot, as root: makes the shared log directory writable for every service
+  # (each image runs as its own uid) and copies the environment's pre-baked logs.
+  logs-init:
+    image: postgres:16
+    user: root
+    entrypoint: ["sh", "/seed/init-logs.sh"]
+    environment:
+      KERVAN_ENV: ${KERVAN_ENV:-dev}
+    volumes:
+      - *logs-volume
+      - ../seed:/seed:ro
+    restart: "no"
+
+  core:
+    image: kervan-core:${KERVAN_TAG:-local}
+    build: ${KERVAN_SRC:-../..}/kervan-core
+    environment:
+      PORT: "8080"
+      DB_URL: jdbc:postgresql://postgres:5432/kervan
+      DB_USER: kervan_core
+      DB_PASSWORD: kervan_core
+      SERVICE_TOKEN: svc-dev-token
+      LOG_FILE: /var/log/kervan/core.jsonl
+    volumes:
+      - *logs-volume
+    depends_on:
+      postgres:
+        condition: service_healthy
+      logs-init:
+        condition: service_completed_successfully
+    healthcheck:
+      # Flyway migrates before the web server starts, so healthy means migrated.
+      test: ["CMD", "curl", "-fsS", "-o", "/dev/null", "http://127.0.0.1:8080/actuator/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 30
+      start_period: 90s
+      start_interval: 2s
+
+  auth:
+    image: kervan-auth:${KERVAN_TAG:-local}
+    build: ${KERVAN_SRC:-../..}/kervan-auth
+    environment:
+      PORT: "9000"
+      ISSUER: http://auth:9000
+      ALLOWED_RESOURCES: http://mcp:3001/mcp
+      CIMD_ALLOWED_HOSTS: voice
+      TOKEN_TTL_SECONDS: "300"
+      LOG_FILE: /var/log/kervan/auth.jsonl
+    volumes:
+      - *logs-volume
+    depends_on:
+      logs-init:
+        condition: service_completed_successfully
+    healthcheck: &node-health
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:'+process.env.PORT+'/health').then(r=>process.exit(r.ok?0:1),()=>process.exit(1))"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 30s
+      start_interval: 1s
+
+  search:
+    image: kervan-search:${KERVAN_TAG:-local}
+    build: ${KERVAN_SRC:-../..}/kervan-search
+    environment:
+      PORT: "8001"
+      VECTOR_PROVIDER: simulated
+      LOG_FILE: /var/log/kervan/search.jsonl
+    volumes:
+      - *logs-volume
+    depends_on:
+      logs-init:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os, urllib.request; urllib.request.urlopen('http://127.0.0.1:%s/health' % os.environ['PORT'], timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 30s
+      start_interval: 1s
+
+  mcp:
+    image: kervan-mcp:${KERVAN_TAG:-local}
+    build: ${KERVAN_SRC:-../..}/kervan-mcp
+    environment:
+      PORT: "3001"
+      MCP_RESOURCE: http://mcp:3001/mcp
+      AUTH_ISSUER: http://auth:9000
+      AUTH_JWKS_URL: http://auth:9000/jwks.json
+      CORE_URL: http://core:8080
+      SEARCH_URL: http://search:8001
+      SERVICE_TOKEN: svc-dev-token
+      LOG_FILE: /var/log/kervan/mcp.jsonl
+    volumes:
+      - *logs-volume
+    depends_on:
+      auth:
+        condition: service_healthy
+      core:
+        condition: service_healthy
+      search:
+        condition: service_healthy
+    healthcheck: *node-health
+
+  voice:
+    image: kervan-voice:${KERVAN_TAG:-local}
+    build: ${KERVAN_SRC:-../..}/kervan-voice
+    environment:
+      PORT: "7000"
+      PUBLIC_URL: http://voice:7000
+      AUTH_ISSUER: http://auth:9000
+      MCP_URL: http://mcp:3001/mcp
+      MCP_RESOURCE: http://mcp:3001/mcp
+      AGENT_MODE: scripted
+      LOG_FILE: /var/log/kervan/voice.jsonl
+    volumes:
+      - *logs-volume
+    depends_on:
+      auth:
+        condition: service_healthy
+      mcp:
+        condition: service_healthy
+    healthcheck: *node-health
+
+  # One-shot: waits until core is healthy (Flyway has migrated), creates the
+  # read-only role kervan_reader and applies seed/$KERVAN_ENV.sql.
+  seed:
+    image: postgres:16
+    entrypoint: ["sh", "/seed/apply.sh"]
+    environment:
+      KERVAN_ENV: ${KERVAN_ENV:-dev}
+      PGHOST: postgres
+      PGPORT: "5432"
+      PGDATABASE: kervan
+      PGUSER: kervan_core
+      PGPASSWORD: kervan_core
+    volumes:
+      - ../seed:/seed:ro
+    depends_on:
+      core:
+        condition: service_healthy
+    restart: "no"
+
+volumes:
+  pgdata:
+  logs:

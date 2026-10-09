@@ -1,0 +1,18 @@
+id: e2e-out-for-delivery-refused
+description: >-
+  A parcel that is out for delivery today cannot be moved: core answers 409 not_reschedulable,
+  mcp turns it into a tool error and the agent relays the refusal.
+turns:
+  - Please reschedule KRV10000104 to {{today+2}}, verification code 9054.
+expect:
+  tool_calls:
+    - name: reschedule_delivery
+      arguments:
+        tracking_no: KRV10000104
+        new_date: "{{today+2}}"
+        verification_code: "9054"
+      expect_error: true
+  reply_contains:
+    - cannot be rescheduled
+  forbidden_tools: [open_ticket]
+  final_state: done

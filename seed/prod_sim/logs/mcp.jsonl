@@ -1,0 +1,588 @@
+{"ts":"{{today-7}}T06:05:42.584Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7d26f4bd-2acb-42ee-909b-39c8acf33d09","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-7}}T06:32:50.166Z","level":"info","service":"mcp","msg":"tool call","trace_id":"97990ec4-465d-45c7-8f79-4665de92984f","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-7}}T06:36:44.209Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b7bf7ac3-84c3-49b1-824d-eb810387a6cc","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-7}}T06:47:56.795Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"eb839588-8419-46f6-baff-ea6535ec9ddc","tool":"get_shipment","status":404,"duration_ms":23}
+{"ts":"{{today-7}}T06:59:46.551Z","level":"info","service":"mcp","msg":"tool call","trace_id":"86dd4395-ba38-4d38-8b30-8289b7b39d16","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-7}}T07:11:08.149Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c5892308-efd0-42db-8987-b1774724a351","tool":"search_help","status":200,"duration_ms":22}
+{"ts":"{{today-7}}T07:28:45.429Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f0d72281-227b-47f3-89b4-645d819c6922","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-7}}T07:29:23.476Z","level":"info","service":"mcp","msg":"tool call","trace_id":"131ecee2-69af-45ff-9e9c-8108f0eda5b3","tool":"search_help","status":200,"duration_ms":10}
+{"ts":"{{today-7}}T08:03:36.677Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a5e9d272-a3d9-449d-8b9c-affe32f5316c","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-7}}T08:06:24.422Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b5f06806-6573-47fa-8a6b-5decea31f85d","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-7}}T08:30:35.409Z","level":"info","service":"mcp","msg":"tool call","trace_id":"13814da3-f214-454b-bb66-f4c104887820","tool":"search_help","status":200,"duration_ms":32}
+{"ts":"{{today-7}}T09:12:44.432Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8e56b964-4312-4945-a07e-794d513fe6d2","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-7}}T09:13:59.047Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9f347ba7-59e8-49d9-b356-c82389b3ad69","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-7}}T09:42:11.198Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e674c314-799b-4fae-8a3b-91703ac5f2c4","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-7}}T10:09:07.127Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ac898ea9-528f-4421-86f0-a7131e216113","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-7}}T10:15:25.014Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5d6d007e-cf3e-4be9-8130-bfe3111d58af","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-7}}T10:21:27.394Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d1422bae-076a-4b6d-b26d-2a3699e10f03","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-7}}T10:42:39.515Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ec794d66-8e44-41f9-a1dd-8e22f58a8516","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-7}}T10:43:22.291Z","level":"info","service":"mcp","msg":"tool call","trace_id":"aaff3682-5a0c-4ae6-af00-1e312d101b07","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-7}}T10:50:12.722Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1c2fdd7d-8dc9-4f41-94e4-b33ad226c6e9","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-7}}T10:56:25.921Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b8e9b32f-f9eb-4f90-83ff-dc9056ae4ffb","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-7}}T11:07:22.854Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"66fc7d98-be65-4c00-9371-ec0c1734004c","tool":"reschedule_delivery","status":403,"duration_ms":7}
+{"ts":"{{today-7}}T11:27:35.720Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1da72193-c231-4cb1-811f-c53560c0bc82","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-7}}T11:47:21.347Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b6e23dcf-7e1d-4792-9d7f-1b993ca435e9","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-7}}T12:02:34.222Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8a35c071-c349-492b-8502-ebeecc37c67e","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-7}}T12:08:45.398Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c931981b-6f78-4539-a537-2985e3cc8d1b","tool":"get_shipment","status":200,"duration_ms":16}
+{"ts":"{{today-7}}T12:15:11.789Z","level":"info","service":"mcp","msg":"tool call","trace_id":"28137b3d-3c0f-4279-b2fe-2b993acd71f7","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-7}}T12:19:39.229Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b9a745f9-4bcc-42fd-bd78-680f6d3d49b2","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-7}}T12:37:00.602Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ef0a2322-f534-4496-8af9-201448e1c7e1","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-7}}T12:42:56.240Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"79de2683-47aa-4c25-a754-117b8b9cc324","tool":"get_shipment","status":404,"duration_ms":13}
+{"ts":"{{today-7}}T12:53:16.589Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2db22228-fc8e-4102-a0c7-eebc099f0f57","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-7}}T12:57:00.023Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0acc5317-cd18-489d-a97e-dfab3bb03db8","tool":"reschedule_delivery","status":200,"duration_ms":28}
+{"ts":"{{today-7}}T13:23:29.746Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e30b3a2e-f9b1-4de6-adb3-fa1242ad43b6","tool":"search_help","status":200,"duration_ms":20}
+{"ts":"{{today-7}}T13:23:30.472Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a0b4b98d-70e1-4d86-b070-6fd78c825ada","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-7}}T13:27:42.390Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fcc72c5e-c3eb-4641-97de-1383137ce868","tool":"get_shipment","status":200,"duration_ms":32}
+{"ts":"{{today-7}}T13:43:07.949Z","level":"info","service":"mcp","msg":"tool call","trace_id":"92da2653-e75d-4a9e-98ba-ccf14a3e0c81","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-7}}T14:03:01.406Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c63160ae-b3bd-4689-97cc-18f38d155cb6","tool":"search_help","status":200,"duration_ms":26}
+{"ts":"{{today-7}}T14:10:21.389Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e134d03e-f948-4b11-b589-e4fa40021f64","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-7}}T14:13:43.219Z","level":"info","service":"mcp","msg":"tool call","trace_id":"755e0e1a-64f0-4633-84fe-041ada947f85","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-7}}T14:19:35.425Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ebcb28e4-dd74-451b-8125-663b197f4d16","tool":"search_help","status":200,"duration_ms":12}
+{"ts":"{{today-7}}T14:26:04.046Z","level":"info","service":"mcp","msg":"tool call","trace_id":"05d33104-9a29-420f-a6d0-07e4d1f0d8a9","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-7}}T14:54:50.186Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cef725b7-891f-4488-b503-41f52d55d42f","tool":"get_shipment","status":200,"duration_ms":11}
+{"ts":"{{today-7}}T15:02:48.829Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3555e590-af4e-439c-87a3-c500a2f6aecb","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-7}}T15:06:24.669Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6b3c731c-44ab-412a-af3d-781f8d53965a","tool":"get_shipment","status":200,"duration_ms":16}
+{"ts":"{{today-7}}T15:28:40.461Z","level":"info","service":"mcp","msg":"tool call","trace_id":"40135518-30ee-49e9-aee3-dd363d4bf022","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-7}}T15:37:57.653Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7a48bbf7-451c-42c3-bea1-8ba0973085d9","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-7}}T15:39:16.583Z","level":"info","service":"mcp","msg":"tool call","trace_id":"589f0d0b-56b7-4cd9-9c19-add910325abe","tool":"search_help","status":200,"duration_ms":29}
+{"ts":"{{today-7}}T15:50:56.195Z","level":"info","service":"mcp","msg":"tool call","trace_id":"bbb5d338-dfc1-4580-b3fd-d57e44853745","tool":"search_help","status":200,"duration_ms":7}
+{"ts":"{{today-7}}T16:06:34.784Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"7da0041e-6295-4cc9-9f22-6fb7e6d2693b","tool":"get_shipment","status":404,"duration_ms":9}
+{"ts":"{{today-7}}T16:07:49.819Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1f2bfef0-388c-491e-bbe7-eb37c9a4c28d","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-7}}T16:13:40.699Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ba268894-aa92-4346-a9d1-fcaf72fbdaf7","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-7}}T16:20:01.128Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d93d6757-85f7-4098-8296-3a158531ad07","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-7}}T16:39:32.000Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c964b064-d96a-4e36-b0ed-eb803954f694","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-7}}T16:52:38.790Z","level":"info","service":"mcp","msg":"tool call","trace_id":"15c0c10e-1d5d-4a38-bb8e-473c20873aa8","tool":"get_shipment","status":200,"duration_ms":21}
+{"ts":"{{today-7}}T16:52:56.244Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1c3a9582-bf05-48d2-a0c2-8333c325e3ab","tool":"search_help","status":200,"duration_ms":19}
+{"ts":"{{today-7}}T17:13:44.061Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"638ee61a-965a-497f-8d23-7b1a5d63d569","tool":"reschedule_delivery","status":400,"duration_ms":18}
+{"ts":"{{today-7}}T17:18:48.260Z","level":"info","service":"mcp","msg":"tool call","trace_id":"95959333-06ef-40b2-bc9c-c099a8655f63","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-7}}T17:30:07.637Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5c17abca-45d3-43eb-8cf0-56d6643daf0c","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-7}}T17:34:30.023Z","level":"info","service":"mcp","msg":"tool call","trace_id":"00c62ebf-cf42-45c9-a415-56214a56d001","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-7}}T17:37:43.098Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6cdd939d-a576-4049-a33f-52bff7a0b372","tool":"get_shipment","status":200,"duration_ms":3}
+{"ts":"{{today-7}}T17:47:52.092Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3534e41e-b39e-4baa-a8ea-da2257eecd67","tool":"search_help","status":200,"duration_ms":34}
+{"ts":"{{today-7}}T17:51:42.867Z","level":"info","service":"mcp","msg":"tool call","trace_id":"865067d4-7666-4c06-831d-5a3ceebe2e5c","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-7}}T18:11:31.778Z","level":"info","service":"mcp","msg":"tool call","trace_id":"bc1fefa6-5797-45f5-8b04-4a1c4c85a6f2","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-7}}T18:17:58.142Z","level":"info","service":"mcp","msg":"tool call","trace_id":"35aa8d40-7ed0-43f0-a469-5bb7575915a3","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-7}}T18:24:25.881Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9846c640-a1c0-4df5-84f3-ce61629f789c","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-6}}T06:04:10.837Z","level":"info","service":"mcp","msg":"tool call","trace_id":"320d1710-0eb8-4190-955b-29fddc39f6ca","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-6}}T06:26:52.538Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fada3273-aea6-4016-b3d6-bfee7bd8a6bb","tool":"search_help","status":200,"duration_ms":32}
+{"ts":"{{today-6}}T06:37:17.930Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e4404e16-a6e6-47b9-a48f-5ee43c41eeb8","tool":"get_shipment","status":200,"duration_ms":32}
+{"ts":"{{today-6}}T06:51:20.059Z","level":"info","service":"mcp","msg":"tool call","trace_id":"92ae3ad7-93c3-4fe2-852a-690aeb0a93dd","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-6}}T06:58:59.992Z","level":"info","service":"mcp","msg":"tool call","trace_id":"74406d9e-3a21-48ac-969d-db79c9efafe5","tool":"open_ticket","status":201,"duration_ms":19}
+{"ts":"{{today-6}}T07:11:29.859Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9094a506-0ec7-4a4f-9891-677ed4df2027","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-6}}T07:14:24.057Z","level":"info","service":"mcp","msg":"tool call","trace_id":"235a6751-8fad-4304-8218-c5ceabe3ce4e","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-6}}T07:14:55.772Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a890c64a-fbbe-405f-8b56-8f5be50a5487","tool":"get_shipment","status":200,"duration_ms":30}
+{"ts":"{{today-6}}T07:31:53.149Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ab4c4878-819b-4281-bd84-b6de51a2410a","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-6}}T07:33:01.860Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e530a3ce-72d0-413b-94d2-8fc5dbb23eab","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-6}}T07:39:50.416Z","level":"info","service":"mcp","msg":"tool call","trace_id":"40d28308-12ba-48c2-8a62-6589a4ef7dbd","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-6}}T07:48:17.045Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"e1d9b51d-366d-48c0-9abb-106264af7fe0","tool":"get_shipment","status":404,"duration_ms":20}
+{"ts":"{{today-6}}T08:03:34.027Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fa081be0-200a-44e6-bbb0-f05a0f4d4132","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-6}}T08:25:36.791Z","level":"info","service":"mcp","msg":"tool call","trace_id":"bf9dc8d5-1311-45ec-98d3-2c6b775c334e","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-6}}T08:36:38.764Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ab300c7d-bafe-45b9-9364-7171d89a65e7","tool":"get_shipment","status":200,"duration_ms":11}
+{"ts":"{{today-6}}T08:40:28.057Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b0b9fa86-fbb6-45c9-8a43-c763bac9fec0","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-6}}T08:42:00.019Z","level":"info","service":"mcp","msg":"tool call","trace_id":"40f639db-5b4f-4893-93b5-450366c24067","tool":"reschedule_delivery","status":200,"duration_ms":24}
+{"ts":"{{today-6}}T08:43:21.065Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f7ea5f85-50c1-49e8-8147-22638a06c087","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-6}}T08:54:23.299Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2ebb448c-890a-4ade-aefa-c0de26c952a5","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-6}}T08:57:41.050Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8a5f4ff8-dc76-46af-93f4-f1f58fa402de","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-6}}T08:58:21.591Z","level":"info","service":"mcp","msg":"tool call","trace_id":"44a0133e-3d60-4225-8fec-1405ec689df1","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-6}}T09:01:02.553Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8a987da6-3a1c-41ce-9da8-2c880f8a0196","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-6}}T09:14:43.602Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a255bcf6-1471-4be2-b781-879749230164","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-6}}T09:18:41.192Z","level":"info","service":"mcp","msg":"tool call","trace_id":"94c621e7-2f51-4474-9983-1918fcdbb2bf","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-6}}T09:33:55.368Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b780c1b8-95c9-43b9-be12-96e946f11551","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-6}}T09:37:32.744Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9fbb5635-6931-4431-af78-2eace831e848","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-6}}T09:43:46.961Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1a448639-1c77-488c-9ab2-0608f1a269b4","tool":"search_help","status":200,"duration_ms":24}
+{"ts":"{{today-6}}T09:46:59.990Z","level":"info","service":"mcp","msg":"tool call","trace_id":"24ee548b-be7d-40dd-b6a1-38551cbdb82f","tool":"open_ticket","status":201,"duration_ms":21}
+{"ts":"{{today-6}}T09:47:45.391Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b5ac5ae5-7ed3-46af-b3d3-e4c34cb5a957","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-6}}T09:52:43.102Z","level":"info","service":"mcp","msg":"tool call","trace_id":"658f2352-836c-4ca6-9a1f-ee7ebf932a0b","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-6}}T10:30:00.026Z","level":"info","service":"mcp","msg":"tool call","trace_id":"00a854c6-7403-4ff5-83b4-845e64897a54","tool":"reschedule_delivery","status":200,"duration_ms":30}
+{"ts":"{{today-6}}T10:41:03.899Z","level":"error","service":"mcp","msg":"upstream unavailable","trace_id":"92ac0fbf-b44b-4e12-a91d-68988dff6e9b","tool":"search_help","duration_ms":1,"reason":"fetch failed"}
+{"ts":"{{today-6}}T10:41:25.267Z","level":"error","service":"mcp","msg":"upstream unavailable","trace_id":"f0a8b505-6277-4f11-8b88-a13eb8203ebd","tool":"search_help","duration_ms":2,"reason":"fetch failed"}
+{"ts":"{{today-6}}T10:41:47.965Z","level":"error","service":"mcp","msg":"upstream unavailable","trace_id":"d193172e-c2fa-49b0-8c6b-18c141b4120f","tool":"search_help","duration_ms":1,"reason":"fetch failed"}
+{"ts":"{{today-6}}T10:42:09.914Z","level":"error","service":"mcp","msg":"upstream unavailable","trace_id":"93759349-acc8-4807-a091-be64e511df58","tool":"search_help","duration_ms":3,"reason":"fetch failed"}
+{"ts":"{{today-6}}T10:42:31.066Z","level":"error","service":"mcp","msg":"upstream unavailable","trace_id":"5b82708c-733d-4bef-9611-991c8ef9094b","tool":"search_help","duration_ms":4,"reason":"fetch failed"}
+{"ts":"{{today-6}}T10:51:52.542Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3a9de028-b352-424f-8e7b-8f1d03e5158e","tool":"search_help","status":200,"duration_ms":19}
+{"ts":"{{today-6}}T10:53:46.572Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ff83da01-e499-4a50-b687-bbf73e181b1a","tool":"get_shipment","status":200,"duration_ms":16}
+{"ts":"{{today-6}}T10:57:12.662Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5dba87b7-7236-480f-b109-82f1744e2825","tool":"get_shipment","status":200,"duration_ms":11}
+{"ts":"{{today-6}}T10:57:57.620Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8e580e8d-f3f4-41e4-b036-1a888593dc10","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-6}}T11:09:00.006Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2b9ee5f6-c82e-4b07-9ada-6ee870d82dff","tool":"reschedule_delivery","status":200,"duration_ms":11}
+{"ts":"{{today-6}}T11:11:02.920Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7f9b0f12-fa40-4bf5-93b5-637afdfea4ec","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-6}}T11:14:46.469Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b46a9b0a-9789-44b2-8c07-ee529f1156d7","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-6}}T11:23:59.773Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5c94a7e7-eef6-48cf-a3e5-ea8571968f59","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-6}}T11:30:57.332Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3dee6bf3-9d6a-48d2-9561-f2c71d65b4d9","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-6}}T11:34:59.994Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7c2afff1-b625-4037-b396-1822b3334e88","tool":"open_ticket","status":201,"duration_ms":29}
+{"ts":"{{today-6}}T11:52:36.147Z","level":"info","service":"mcp","msg":"tool call","trace_id":"77c5098b-3614-455e-9edd-64fe2ffc26d6","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-6}}T11:57:00.019Z","level":"info","service":"mcp","msg":"tool call","trace_id":"17aebafc-c1f2-4820-9bac-de374c8e55e0","tool":"reschedule_delivery","status":200,"duration_ms":24}
+{"ts":"{{today-6}}T12:09:48.804Z","level":"info","service":"mcp","msg":"tool call","trace_id":"43e73f89-beba-423c-a2b5-ac5c7618d306","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-6}}T12:20:44.486Z","level":"info","service":"mcp","msg":"tool call","trace_id":"26759866-f10f-4d83-b2ae-89feb53b9a8b","tool":"search_help","status":200,"duration_ms":29}
+{"ts":"{{today-6}}T12:28:52.105Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b68c57bc-9064-48af-959f-7b0e6089fd4b","tool":"search_help","status":200,"duration_ms":13}
+{"ts":"{{today-6}}T13:03:34.176Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c4aa36ad-4b45-4ea5-8a7c-eebb823c8d0f","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-6}}T13:06:00.031Z","level":"info","service":"mcp","msg":"tool call","trace_id":"dcc91437-e1c6-4edc-9191-f352442b9204","tool":"reschedule_delivery","status":200,"duration_ms":34}
+{"ts":"{{today-6}}T13:06:57.991Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"c6186e37-78bf-40d2-aa57-774cc9417162","tool":"get_shipment","status":404,"duration_ms":17}
+{"ts":"{{today-6}}T13:22:59.973Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b4161055-fad8-437a-b37f-883fbedf7733","tool":"open_ticket","status":201,"duration_ms":6}
+{"ts":"{{today-6}}T13:40:26.040Z","level":"info","service":"mcp","msg":"tool call","trace_id":"438eea42-99ef-4712-96d7-ae5b21648163","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-6}}T13:46:52.738Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4b1c03c6-43a5-4da6-aae9-f6e84e86e5a4","tool":"search_help","status":200,"duration_ms":7}
+{"ts":"{{today-6}}T13:52:09.290Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e2f5fe46-0cab-4454-bdd8-9b76b8a96610","tool":"get_shipment","status":200,"duration_ms":6}
+{"ts":"{{today-6}}T13:58:39.218Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0945bbeb-0f00-47b5-a4d5-d32d2c09b608","tool":"get_shipment","status":200,"duration_ms":6}
+{"ts":"{{today-6}}T13:59:08.353Z","level":"info","service":"mcp","msg":"tool call","trace_id":"69b35179-c29c-4a60-b032-1945f8d80b02","tool":"search_help","status":200,"duration_ms":31}
+{"ts":"{{today-6}}T14:02:16.275Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"641a7e9d-8c01-4f19-ac6a-ab09d8abbeb3","tool":"reschedule_delivery","status":403,"duration_ms":15}
+{"ts":"{{today-6}}T14:07:08.501Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0d80473b-f796-42c8-9a07-a874245efd61","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-6}}T14:17:09.026Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f173139a-3a8e-4363-bcea-0200676bce93","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-6}}T14:19:13.819Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a22df41d-0f22-47f3-8976-5af942b37f4b","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-6}}T14:41:53.373Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0af53ec6-9cef-4455-a6d2-850484ff88c6","tool":"search_help","status":200,"duration_ms":5}
+{"ts":"{{today-6}}T14:54:00.005Z","level":"info","service":"mcp","msg":"tool call","trace_id":"62fd9868-7452-4b19-8ed0-cc04ac58b36a","tool":"reschedule_delivery","status":200,"duration_ms":10}
+{"ts":"{{today-6}}T15:10:59.978Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fe5c5a6c-6681-42fc-9a16-d2aaf84d3252","tool":"open_ticket","status":201,"duration_ms":7}
+{"ts":"{{today-6}}T15:13:56.745Z","level":"info","service":"mcp","msg":"tool call","trace_id":"90990b89-d87b-4ac0-af24-c19edff91fe8","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-6}}T15:24:06.022Z","level":"info","service":"mcp","msg":"tool call","trace_id":"be4fa612-9246-4418-b423-5c1eb1e99180","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-6}}T15:27:37.922Z","level":"info","service":"mcp","msg":"tool call","trace_id":"825a4a00-a646-4580-a012-523792b0fbca","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-6}}T15:33:19.202Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7ebbda59-673d-4283-bd78-0ddf7f404697","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-6}}T15:34:02.878Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cd833802-2990-46b6-a2a3-af3ba42c46ea","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-6}}T16:47:46.020Z","level":"info","service":"mcp","msg":"tool call","trace_id":"71343584-1723-4fd0-898f-db13cc368600","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-6}}T16:48:35.443Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e6afc18c-77cb-4751-ac3e-d492282a9ec0","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-6}}T17:05:25.942Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9c45a286-8b0b-4478-9409-801ed6b4dde7","tool":"get_shipment","status":200,"duration_ms":11}
+{"ts":"{{today-6}}T17:15:30.936Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6ebaebe3-7423-47c7-ba33-66d04a585439","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-6}}T17:38:23.400Z","level":"info","service":"mcp","msg":"tool call","trace_id":"67ea4fca-87fb-4746-b184-512795922e26","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-6}}T17:43:04.578Z","level":"info","service":"mcp","msg":"tool call","trace_id":"405c98ee-e3fc-4291-af77-3feaee0820aa","tool":"search_help","status":200,"duration_ms":26}
+{"ts":"{{today-6}}T17:43:30.718Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a8b541e3-1821-412a-86c5-2f73dc8ea4f9","tool":"get_shipment","status":200,"duration_ms":16}
+{"ts":"{{today-6}}T18:06:24.563Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8890e7e5-ff1e-4d79-9a42-28f5c12c3709","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-6}}T18:17:41.977Z","level":"info","service":"mcp","msg":"tool call","trace_id":"13d01e2e-e6f0-4712-ad72-f7fd57601951","tool":"get_shipment","status":200,"duration_ms":21}
+{"ts":"{{today-6}}T18:20:12.916Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3e714956-0189-44d3-aaaf-e168fe36189e","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-5}}T06:06:13.571Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2f339b71-73c2-4a89-a712-a7e59d96e79c","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-5}}T06:26:53.749Z","level":"info","service":"mcp","msg":"tool call","trace_id":"71feb927-c3ad-4c96-9eda-58f9c8e1c0b3","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-5}}T06:36:17.417Z","level":"info","service":"mcp","msg":"tool call","trace_id":"757a02b9-697d-4568-9e8b-cd8ed8747146","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-5}}T06:44:35.259Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"78b5619c-917d-4cc3-b73d-0d0891637d8c","tool":"get_shipment","status":404,"duration_ms":28}
+{"ts":"{{today-5}}T06:58:02.805Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a0ccc2e0-2771-4da5-bc99-97ac61fd7071","tool":"search_help","status":200,"duration_ms":19}
+{"ts":"{{today-5}}T07:02:11.397Z","level":"warn","service":"mcp","msg":"token rejected","trace_id":"c701936b-6bb9-47e4-82a4-c625f1a2f13b","status":401,"reason":"ERR_JWKS_NO_MATCHING_KEY"}
+{"ts":"{{today-5}}T07:02:14.235Z","level":"warn","service":"mcp","msg":"token rejected","trace_id":"4449fe72-82e5-4280-bf53-701edb625822","status":401,"reason":"ERR_JWKS_NO_MATCHING_KEY"}
+{"ts":"{{today-5}}T07:02:17.777Z","level":"warn","service":"mcp","msg":"token rejected","trace_id":"121620ec-2203-45e5-88d4-a4cf4e2c2bc9","status":401,"reason":"ERR_JWKS_NO_MATCHING_KEY"}
+{"ts":"{{today-5}}T07:11:20.913Z","level":"info","service":"mcp","msg":"tool call","trace_id":"97f52795-7fb8-4981-b399-a6830d1d29e1","tool":"search_help","status":200,"duration_ms":33}
+{"ts":"{{today-5}}T07:12:04.593Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ea23e45f-7154-4171-97da-5bf77551b73c","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-5}}T07:26:24.688Z","level":"info","service":"mcp","msg":"tool call","trace_id":"94d0d277-68ea-4a57-b9bc-be0cf750303a","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-5}}T07:37:19.089Z","level":"info","service":"mcp","msg":"tool call","trace_id":"94938a44-f397-45b2-92b7-902d3257fc59","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-5}}T07:37:43.438Z","level":"info","service":"mcp","msg":"tool call","trace_id":"90b409ab-2bea-4c3d-a9c0-555b1145a371","tool":"search_help","status":200,"duration_ms":23}
+{"ts":"{{today-5}}T07:53:41.273Z","level":"info","service":"mcp","msg":"tool call","trace_id":"03cf039c-7610-4190-a6b1-b10c6f270af4","tool":"get_shipment","status":200,"duration_ms":6}
+{"ts":"{{today-5}}T07:59:38.989Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9474533d-ed12-4726-9409-090f8b40f787","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-5}}T08:03:01.151Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e289dd8a-cd3c-4039-a655-344d2f4da1ea","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-5}}T08:05:19.944Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2af856f4-1691-4e9b-9124-cdfcaecdf26f","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-5}}T08:09:12.919Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a9afea95-b072-45d8-bd40-32f668fb3ece","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-5}}T08:21:50.683Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a8d241ca-747a-4ea9-97f8-31c4cc5d77f0","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-5}}T08:27:32.588Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0b23ee0e-e6f8-4e34-b89c-e57ff47fe017","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-5}}T08:36:41.299Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3c790084-43e3-4d0c-b256-b005daf291b7","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-5}}T08:40:38.813Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3d2fbf1d-b4ff-438d-a24a-0e8e37a6859f","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-5}}T08:45:41.523Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5a60f35b-2c6a-4e75-a315-32d3fc581b5c","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-5}}T08:46:59.992Z","level":"info","service":"mcp","msg":"tool call","trace_id":"69a3f4f9-3c49-45b6-a448-ff45ba99c689","tool":"open_ticket","status":201,"duration_ms":28}
+{"ts":"{{today-5}}T08:49:49.707Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5b201f74-a659-4820-8bc5-c88cf01efcc2","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-5}}T08:54:19.679Z","level":"info","service":"mcp","msg":"tool call","trace_id":"da9d5061-3770-449e-81b4-91f98815736f","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-5}}T08:58:56.549Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f5b5b55c-0a78-4dad-8d30-db6f4eee0b22","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-5}}T09:08:56.389Z","level":"info","service":"mcp","msg":"tool call","trace_id":"60291848-6edf-4063-9a93-6ed414b356e0","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-5}}T09:18:27.547Z","level":"info","service":"mcp","msg":"tool call","trace_id":"dd66528d-89a6-4785-b9a3-b276c78f61e9","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-5}}T09:26:38.966Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e106d458-800a-4f19-aa55-6d6d9b8cadc0","tool":"search_help","status":200,"duration_ms":12}
+{"ts":"{{today-5}}T10:10:24.728Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6f485667-3224-43cc-95d4-7d13d3ef770a","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-5}}T10:39:00.010Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8bc926f5-0a03-4537-bad8-54b38b2a4a4a","tool":"reschedule_delivery","status":200,"duration_ms":17}
+{"ts":"{{today-5}}T10:50:02.711Z","level":"info","service":"mcp","msg":"tool call","trace_id":"aa518a98-2872-4cae-afd6-e8fcd688d9ca","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-5}}T10:54:47.449Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d07b1db9-6ccd-4d10-94c2-d2a4bb07a8b7","tool":"search_help","status":200,"duration_ms":5}
+{"ts":"{{today-5}}T10:55:10.641Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c0755e33-e619-4aaf-b2b0-29ab5f910fdf","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-5}}T11:31:35.826Z","level":"info","service":"mcp","msg":"tool call","trace_id":"51be4dad-1367-4a39-8f55-c26c2379aafc","tool":"search_help","status":200,"duration_ms":17}
+{"ts":"{{today-5}}T11:50:52.348Z","level":"info","service":"mcp","msg":"tool call","trace_id":"64865d04-2622-4f0b-a7eb-187b5020c6bd","tool":"get_shipment","status":200,"duration_ms":11}
+{"ts":"{{today-5}}T11:51:26.406Z","level":"info","service":"mcp","msg":"tool call","trace_id":"18d4c89e-51d3-4524-aba1-f13741020489","tool":"search_help","status":200,"duration_ms":9}
+{"ts":"{{today-5}}T12:05:03.474Z","level":"info","service":"mcp","msg":"tool call","trace_id":"52a0c6c0-8976-4607-8e15-7bf39e2f25da","tool":"search_help","status":200,"duration_ms":17}
+{"ts":"{{today-5}}T12:23:49.444Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8e814f36-5ce1-4105-9d52-d8a462d5a703","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-5}}T12:25:23.002Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cea07e1f-4971-49d6-b829-d07dc9a5129a","tool":"search_help","status":200,"duration_ms":6}
+{"ts":"{{today-5}}T12:30:24.946Z","level":"info","service":"mcp","msg":"tool call","trace_id":"03b86fc8-4a2f-4494-bc01-8781cfc39d3a","tool":"search_help","status":200,"duration_ms":24}
+{"ts":"{{today-5}}T12:40:13.035Z","level":"info","service":"mcp","msg":"tool call","trace_id":"07856ce7-ad2b-411b-95ae-ef38ac301633","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-5}}T12:42:41.209Z","level":"info","service":"mcp","msg":"tool call","trace_id":"98116cf1-8fd3-425f-863f-adca7f98c14d","tool":"search_help","status":200,"duration_ms":10}
+{"ts":"{{today-5}}T12:48:52.700Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e198d6de-3ccb-4190-8024-d4dc2c45aae4","tool":"search_help","status":200,"duration_ms":16}
+{"ts":"{{today-5}}T13:15:00.021Z","level":"info","service":"mcp","msg":"tool call","trace_id":"118be3e5-ca0e-4dd8-b69a-5d289a24ddb2","tool":"reschedule_delivery","status":200,"duration_ms":30}
+{"ts":"{{today-5}}T13:18:30.655Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e3c12ac5-31d1-47b5-b5ed-f8adc645cc08","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-5}}T13:26:08.888Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"26db84f8-eb3e-4568-b209-11bf79ccbf32","tool":"get_shipment","status":404,"duration_ms":16}
+{"ts":"{{today-5}}T13:29:36.060Z","level":"info","service":"mcp","msg":"tool call","trace_id":"72926c26-22a2-44a7-8e02-cfae18fdcd23","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-5}}T13:42:00.467Z","level":"info","service":"mcp","msg":"tool call","trace_id":"60da7f2a-99bf-496a-8d5b-419320a8cb3a","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-5}}T13:48:04.760Z","level":"info","service":"mcp","msg":"tool call","trace_id":"73e8d579-7709-41ee-951a-23bff4a980f6","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-5}}T14:12:34.462Z","level":"info","service":"mcp","msg":"tool call","trace_id":"bf2c816c-ae64-4975-b2c6-02b32ef3eb5f","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-5}}T15:00:14.678Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2ed4f961-68db-4dd2-96f5-6ef5493fe7f6","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-5}}T15:25:01.109Z","level":"info","service":"mcp","msg":"tool call","trace_id":"dc203507-af95-4123-8175-2ba33c7de0a0","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-5}}T15:41:28.680Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"73549a79-0db7-4baa-9660-2f5ad03549a8","tool":"get_shipment","status":404,"duration_ms":33}
+{"ts":"{{today-5}}T15:42:15.965Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fbe88342-1755-4eb7-817d-87a927e05321","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-5}}T15:48:45.982Z","level":"info","service":"mcp","msg":"tool call","trace_id":"31f08bb0-b75d-4ce9-88c1-21891ab3c45a","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-5}}T15:55:47.010Z","level":"info","service":"mcp","msg":"tool call","trace_id":"08083bc5-466b-41db-85e4-7ec73292a59c","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-5}}T16:21:06.979Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6ae0298f-8238-4128-bdba-095dc014e975","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-5}}T16:33:54.988Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e07b8868-2ecd-47a0-9b42-3c02cfb48443","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-5}}T16:37:14.385Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6385276c-7f71-4806-bb04-ecccd1616697","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-5}}T16:52:20.722Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7cc36069-5636-4423-8b95-37310a751492","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-5}}T17:18:14.197Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5b0a2c8f-faa9-4a5a-8f34-d560ec3f761f","tool":"search_help","status":200,"duration_ms":14}
+{"ts":"{{today-5}}T17:19:05.085Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5c232ea4-a182-4dfe-9a44-ca48112ae1f7","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-5}}T17:30:39.352Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e7770740-9c8f-49e9-9ef0-85c2eb775b6c","tool":"get_shipment","status":200,"duration_ms":21}
+{"ts":"{{today-5}}T17:34:53.059Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"6b4b0dad-189d-4131-98d1-72f7ecaec972","tool":"reschedule_delivery","status":403,"duration_ms":22}
+{"ts":"{{today-5}}T17:50:07.496Z","level":"info","service":"mcp","msg":"tool call","trace_id":"53083ea8-71b3-40c6-9ee6-26380e878998","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-5}}T17:52:57.656Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b4143385-6fe9-4a74-8f06-bb4b32c9efd0","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-5}}T17:59:37.652Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d5452734-05fb-4cd6-9171-0b5c18c54abc","tool":"get_shipment","status":200,"duration_ms":11}
+{"ts":"{{today-4}}T06:23:30.296Z","level":"info","service":"mcp","msg":"tool call","trace_id":"edc5eab7-5384-42a4-9b7c-f7b4a4561a04","tool":"get_shipment","status":200,"duration_ms":32}
+{"ts":"{{today-4}}T06:25:47.305Z","level":"info","service":"mcp","msg":"tool call","trace_id":"36328ddf-d27d-4fd1-a615-fa38e1020731","tool":"get_shipment","status":200,"duration_ms":34}
+{"ts":"{{today-4}}T07:05:46.062Z","level":"info","service":"mcp","msg":"tool call","trace_id":"35c08628-e282-47ca-a25a-b9d696dc8b07","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-4}}T07:44:43.956Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9fb1fe58-705b-4918-ab88-489889a09ebe","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-4}}T07:49:26.793Z","level":"info","service":"mcp","msg":"tool call","trace_id":"30e01f2a-4e23-4b66-bb0d-ebcb5516ae41","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-4}}T08:17:52.516Z","level":"info","service":"mcp","msg":"tool call","trace_id":"158656e7-962c-44e2-ab63-2c0ca1dbfa1e","tool":"get_shipment","status":200,"duration_ms":21}
+{"ts":"{{today-4}}T08:18:11.276Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5c706ead-48fb-459f-a116-9f9d535ea81d","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-4}}T08:51:00.024Z","level":"info","service":"mcp","msg":"tool call","trace_id":"976777e0-9b7b-41e3-8e0f-6435e1563052","tool":"reschedule_delivery","status":200,"duration_ms":33}
+{"ts":"{{today-4}}T08:55:42.877Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7065dbfd-cf3c-455b-b270-3947bf3145f9","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-4}}T09:04:59.201Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e90e0f37-7abc-4c9c-bf2b-aa97c8184fa2","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-4}}T09:21:15.876Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8a40f5de-e2fd-4425-825e-3427eda32b85","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-4}}T09:36:22.254Z","level":"info","service":"mcp","msg":"tool call","trace_id":"511d6b2f-0f85-4486-96b6-4275763f72a6","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-4}}T09:56:10.694Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4be5eef2-0d34-40c2-b1e0-9c732ef21825","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-4}}T10:04:04.547Z","level":"info","service":"mcp","msg":"tool call","trace_id":"086e76fe-2578-49df-99e3-a624d3e6bf1e","tool":"get_shipment","status":200,"duration_ms":6}
+{"ts":"{{today-4}}T10:07:31.319Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9d4e9949-e551-402e-88e2-f5376e93bc34","tool":"search_help","status":200,"duration_ms":26}
+{"ts":"{{today-4}}T10:25:59.460Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"b0a3a714-ecac-4ae8-9fc0-7404d5a9a1b6","tool":"reschedule_delivery","status":403,"duration_ms":16}
+{"ts":"{{today-4}}T10:32:35.304Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4f2d0a0b-dd1f-4ff8-96f8-7d7db60ed82f","tool":"get_shipment","status":200,"duration_ms":33}
+{"ts":"{{today-4}}T10:37:06.528Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9e34f43b-6d5a-4fd9-bb4f-b2fba31f779a","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-4}}T10:37:23.819Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"4089bc0e-1076-40e5-a9d4-12b5f9a02af9","tool":"reschedule_delivery","status":409,"duration_ms":19}
+{"ts":"{{today-4}}T10:48:00.011Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e52a7e27-89cd-49b7-acfe-f19835bcacba","tool":"reschedule_delivery","status":200,"duration_ms":18}
+{"ts":"{{today-4}}T11:18:00.019Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7c39a076-7cec-4344-82ff-23c950a170b4","tool":"reschedule_delivery","status":200,"duration_ms":22}
+{"ts":"{{today-4}}T11:20:56.736Z","level":"info","service":"mcp","msg":"tool call","trace_id":"404403aa-9040-45e5-be07-2cdb894ad428","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-4}}T11:27:30.656Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b8c7a376-e131-4a38-99e0-21cb1fba965b","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-4}}T11:42:19.516Z","level":"info","service":"mcp","msg":"tool call","trace_id":"181f0335-0ce4-4a82-95c5-75106785b5f8","tool":"get_shipment","status":200,"duration_ms":33}
+{"ts":"{{today-4}}T11:46:15.636Z","level":"info","service":"mcp","msg":"tool call","trace_id":"41416746-ba2a-4f07-b903-c99cc846f1a9","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-4}}T11:48:00.004Z","level":"info","service":"mcp","msg":"tool call","trace_id":"879d1816-b8af-4474-a47d-a02c06c87b17","tool":"reschedule_delivery","status":200,"duration_ms":8}
+{"ts":"{{today-4}}T12:01:42.885Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e835bdbc-cd79-456e-b797-19a8a390cff7","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-4}}T12:02:19.029Z","level":"info","service":"mcp","msg":"tool call","trace_id":"61cf398c-94f8-47c9-bebc-18f0aeb0eec9","tool":"search_help","status":200,"duration_ms":10}
+{"ts":"{{today-4}}T12:35:11.438Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b7e4847c-409c-4b0e-bc96-2a2b7018e494","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-4}}T12:36:00.016Z","level":"info","service":"mcp","msg":"tool call","trace_id":"bb0fbb09-6c2e-4a89-8a96-3238c823561d","tool":"reschedule_delivery","status":200,"duration_ms":20}
+{"ts":"{{today-4}}T12:40:24.777Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d51ff21c-138d-4928-9ba4-340270835c08","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-4}}T12:48:35.196Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6a6dce4d-fd47-4031-876a-04980cdf190a","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-4}}T13:12:55.771Z","level":"info","service":"mcp","msg":"tool call","trace_id":"448f6570-546a-4fe7-8b2c-2c7f51aa0f45","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-4}}T13:28:55.012Z","level":"info","service":"mcp","msg":"tool call","trace_id":"300d1b54-2476-44ea-9651-9486c34a7229","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-4}}T13:31:34.229Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cb9ca06a-6767-436a-8cba-1443cfa62167","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-4}}T13:48:43.512Z","level":"info","service":"mcp","msg":"tool call","trace_id":"dbb69e49-e796-41e8-9709-8baabb387290","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-4}}T13:56:52.436Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ed96bb48-3cc8-4423-befc-d4c0f5b8e9d1","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-4}}T13:57:53.753Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"2b45a853-aebe-4228-ac33-4d801b153065","tool":"get_shipment","status":404,"duration_ms":17}
+{"ts":"{{today-4}}T14:23:39.785Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a6a6870b-321e-46c4-b9fe-3b3a9fa80f3c","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-4}}T14:41:45.478Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"9da525a2-268d-4806-b521-655c39116b0d","tool":"reschedule_delivery","status":403,"duration_ms":24}
+{"ts":"{{today-4}}T14:44:29.581Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4766012c-8d2d-4a86-a765-96214a71c60a","tool":"search_help","status":200,"duration_ms":25}
+{"ts":"{{today-4}}T14:48:09.469Z","level":"info","service":"mcp","msg":"tool call","trace_id":"537405ca-c5d9-4f1c-b3ac-35cb9b687d1c","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-4}}T15:03:00.018Z","level":"info","service":"mcp","msg":"tool call","trace_id":"690733cb-2fb8-455e-96e1-64a637097b8c","tool":"reschedule_delivery","status":200,"duration_ms":25}
+{"ts":"{{today-4}}T15:08:11.949Z","level":"info","service":"mcp","msg":"tool call","trace_id":"36e34d92-cf46-4826-a088-abe64065a5cd","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-4}}T15:16:08.003Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"83b473b0-c673-4a4d-bf8c-5c64a1c31062","tool":"reschedule_delivery","status":400,"duration_ms":30}
+{"ts":"{{today-4}}T15:25:05.851Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b80e7189-7893-4e6e-8d0a-e9cbe18716a1","tool":"get_shipment","status":200,"duration_ms":16}
+{"ts":"{{today-4}}T15:30:13.944Z","level":"info","service":"mcp","msg":"tool call","trace_id":"73965bb6-70db-493b-8e79-6a9495901262","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-4}}T15:40:31.506Z","level":"info","service":"mcp","msg":"tool call","trace_id":"24abcab2-a925-44af-8653-7701e70f1038","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-4}}T15:45:25.154Z","level":"info","service":"mcp","msg":"tool call","trace_id":"89870dba-573f-4b2f-be6d-26dca543505c","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-4}}T15:52:33.351Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"bdeadf21-7bdd-495d-a08d-54de3b58a912","tool":"get_shipment","status":404,"duration_ms":32}
+{"ts":"{{today-4}}T15:56:56.653Z","level":"info","service":"mcp","msg":"tool call","trace_id":"630e308d-d068-4d8d-8fe4-683a84443cf3","tool":"search_help","status":200,"duration_ms":19}
+{"ts":"{{today-4}}T16:05:26.386Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"ea576aed-369b-42de-b5ca-19b2531dfd92","tool":"reschedule_delivery","status":400,"duration_ms":28}
+{"ts":"{{today-4}}T16:17:22.720Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cadf3170-8132-423c-ae1c-fad391684aa3","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-4}}T17:19:10.981Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1c103bf3-aeaa-4762-8695-0b2db530da45","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-4}}T17:21:57.584Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4cc71149-f3e7-4507-9fa0-2d980c319ba9","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-4}}T17:22:29.738Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e9f57044-3798-4c7c-ab0e-e7a70e713780","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-4}}T17:33:00.008Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4a6a98fb-d186-44df-93bc-7ee73e14d37a","tool":"reschedule_delivery","status":200,"duration_ms":13}
+{"ts":"{{today-4}}T17:50:00.305Z","level":"info","service":"mcp","msg":"tool call","trace_id":"925de4d1-45f3-453d-a0ab-0d12c7d64663","tool":"get_shipment","status":200,"duration_ms":34}
+{"ts":"{{today-4}}T17:56:59.691Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ebb82d21-496e-4e60-859f-249bbb6d886b","tool":"search_help","status":200,"duration_ms":21}
+{"ts":"{{today-4}}T17:58:27.841Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fd07656a-5b25-4f58-8683-7e4fea2b62df","tool":"search_help","status":200,"duration_ms":19}
+{"ts":"{{today-4}}T18:02:47.760Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f3f23761-715b-4ed1-aa7f-8a867d427710","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-4}}T18:04:18.072Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b518fe3d-606b-42bd-b5d4-bf4b32d34d23","tool":"search_help","status":200,"duration_ms":26}
+{"ts":"{{today-4}}T18:11:01.530Z","level":"info","service":"mcp","msg":"tool call","trace_id":"190f6f12-3742-4efa-a15b-17eee924b186","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-4}}T18:16:58.474Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0155ec94-66e1-472f-a657-7ad35f515cd1","tool":"search_help","status":200,"duration_ms":9}
+{"ts":"{{today-3}}T03:03:37.679Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a7940f7d-cc3b-41d2-b5c0-7e52ce8e8e2d","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-3}}T03:03:37.747Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"a7940f7d-cc3b-41d2-b5c0-7e52ce8e8e2d","tool":"reschedule_delivery","status":409,"duration_ms":28}
+{"ts":"{{today-3}}T04:24:47.976Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"e9ed38c0-81de-43bf-9926-f62162e3e0ca","tool":"reschedule_delivery","status":409,"duration_ms":24}
+{"ts":"{{today-3}}T06:03:13.653Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9a303700-65bd-45c5-bea1-ae547a5832df","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-3}}T06:22:38.301Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a2a47ec9-b867-48af-998f-e0a35a50d7e0","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-3}}T06:32:15.108Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8b4d0699-1e09-4b62-9c1c-2452b730c010","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-3}}T06:39:38.457Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ee523ec6-934e-4aa7-bee8-e161130a546f","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-3}}T06:42:22.355Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1fe8e6f8-0551-4729-b7e6-d0cea4d24957","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-3}}T06:42:47.549Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4cd8d61c-75ec-45ab-a0c7-4ed05c141a3c","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-3}}T06:42:47.607Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"4cd8d61c-75ec-45ab-a0c7-4ed05c141a3c","tool":"reschedule_delivery","status":409,"duration_ms":18}
+{"ts":"{{today-3}}T06:56:17.519Z","level":"info","service":"mcp","msg":"tool call","trace_id":"68ebb664-e5b9-4997-a781-84566d14bd58","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-3}}T07:26:48.484Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9a6074c4-7a63-4c88-a5ef-8d4187acc1ee","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-3}}T07:32:33.094Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1b404703-cb1e-4101-9255-e33ccb08c13f","tool":"search_help","status":200,"duration_ms":29}
+{"ts":"{{today-3}}T07:51:45.802Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"02f7a50f-020b-4f6a-8044-ddedd7ca672f","tool":"reschedule_delivery","status":409,"duration_ms":25}
+{"ts":"{{today-3}}T08:10:54.558Z","level":"info","service":"mcp","msg":"tool call","trace_id":"692e4f1e-63d2-470b-bbb3-b9352d7f4177","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-3}}T08:16:46.788Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7a739f89-2719-4e16-af94-3e8689dc4d36","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-3}}T08:27:48.622Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8982c5f9-2719-4465-a0ce-35e194af712a","tool":"search_help","status":200,"duration_ms":4}
+{"ts":"{{today-3}}T08:46:19.532Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"2ddd6151-fe1f-41a2-9496-daed73e3daa7","tool":"reschedule_delivery","status":400,"duration_ms":17}
+{"ts":"{{today-3}}T08:47:50.819Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6186933c-4b39-4aa4-bf75-e9a9051c1823","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-3}}T09:03:33.553Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f1089e04-924a-4a24-8c28-d8d6d8be8a6a","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-3}}T09:25:48.155Z","level":"info","service":"mcp","msg":"tool call","trace_id":"13ebfd6b-cecb-454b-9476-3810402ab66a","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-3}}T09:57:21.288Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ea31b787-f27c-4c20-96b6-f50356ac2c41","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-3}}T10:02:12.523Z","level":"info","service":"mcp","msg":"tool call","trace_id":"24aa8b1a-c0e1-4617-8d7e-c9beaf61ad68","tool":"search_help","status":200,"duration_ms":16}
+{"ts":"{{today-3}}T10:04:25.509Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0fc53fc3-db7e-4764-bd3d-163cf2904dfd","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-3}}T10:15:57.624Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"58e94b3b-47bd-436a-a647-1b1e7d5adb7d","tool":"reschedule_delivery","status":409,"duration_ms":8}
+{"ts":"{{today-3}}T10:27:56.767Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"2fbbc044-4231-4d74-a3fd-0ec9073da204","tool":"reschedule_delivery","status":409,"duration_ms":5}
+{"ts":"{{today-3}}T10:32:47.289Z","level":"info","service":"mcp","msg":"tool call","trace_id":"82be1087-8441-408d-a521-8dd56add02c9","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-3}}T10:50:37.530Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ac7cc7cb-a551-4ff7-b5c7-7c3a41d01c7f","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-3}}T10:51:36.095Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0699ac01-4d94-4a57-a02d-3c23b9e8aaa6","tool":"search_help","status":200,"duration_ms":30}
+{"ts":"{{today-3}}T10:57:03.927Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"538d7831-8c31-4167-b5f8-d5a266a22191","tool":"reschedule_delivery","status":409,"duration_ms":20}
+{"ts":"{{today-3}}T10:57:33.001Z","level":"info","service":"mcp","msg":"tool call","trace_id":"90da086a-9dba-463f-866a-e29820ca30dd","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-3}}T11:03:50.255Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9db2edab-d66f-49fe-988b-d757723a8871","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-3}}T11:04:39.920Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1618e394-9032-4411-87f4-6256fff6d5ce","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-3}}T11:26:06.165Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9323533b-435b-461d-b94e-56cff67bff90","tool":"search_help","status":200,"duration_ms":24}
+{"ts":"{{today-3}}T11:27:36.183Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9771bce1-2862-4e4f-9d99-6a66faee9b32","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-3}}T11:28:06.192Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e2a9fd3e-635b-4483-b140-a0f43a758658","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-3}}T11:43:57.380Z","level":"info","service":"mcp","msg":"tool call","trace_id":"11ba701d-8051-431e-b80c-67d1b6e9c229","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-3}}T11:43:57.446Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"11ba701d-8051-431e-b80c-67d1b6e9c229","tool":"reschedule_delivery","status":409,"duration_ms":26}
+{"ts":"{{today-3}}T11:57:27.499Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3b2138c2-bc25-4579-b881-370a826b9e67","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-3}}T12:19:11.240Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"6eb9baff-96f7-4cfd-83aa-7425e499d3bf","tool":"reschedule_delivery","status":409,"duration_ms":5}
+{"ts":"{{today-3}}T12:19:45.552Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b5328b84-2003-4f85-80d5-5f9b71b62dfb","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-3}}T12:19:45.620Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"b5328b84-2003-4f85-80d5-5f9b71b62dfb","tool":"reschedule_delivery","status":409,"duration_ms":28}
+{"ts":"{{today-3}}T12:20:39.681Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8a881d13-b98e-43be-b5be-6f6462d9e7f9","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-3}}T12:27:47.049Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2a3afd9f-3417-407a-a70d-333d4516a68f","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-3}}T12:27:47.116Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"2a3afd9f-3417-407a-a70d-333d4516a68f","tool":"reschedule_delivery","status":409,"duration_ms":27}
+{"ts":"{{today-3}}T12:28:48.203Z","level":"info","service":"mcp","msg":"tool call","trace_id":"eb58ba48-8788-47f1-856c-f998079c0ad8","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-3}}T12:40:12.716Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3cd33dba-5036-48d9-9479-c9bcde12fe6b","tool":"search_help","status":200,"duration_ms":25}
+{"ts":"{{today-3}}T12:44:21.745Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b5e430f9-1c6f-497d-8cd4-93365b692710","tool":"search_help","status":200,"duration_ms":32}
+{"ts":"{{today-3}}T12:53:18.826Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f15b6451-2971-4f57-bce6-dfad9a120736","tool":"get_shipment","status":200,"duration_ms":16}
+{"ts":"{{today-3}}T12:56:06.995Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"a6a4a43d-b685-4dbe-be73-0d059aa5865a","tool":"get_shipment","status":404,"duration_ms":17}
+{"ts":"{{today-3}}T13:19:22.402Z","level":"info","service":"mcp","msg":"tool call","trace_id":"70638c0a-200a-4fbf-9e66-da3a1359c5d9","tool":"get_shipment","status":200,"duration_ms":3}
+{"ts":"{{today-3}}T13:25:10.750Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"a0fd6f1b-c9ed-4033-9d29-5634cfe06466","tool":"reschedule_delivery","status":409,"duration_ms":26}
+{"ts":"{{today-3}}T13:26:15.394Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8c867cef-44d5-4db7-a03e-a02bd4963ce9","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-3}}T13:42:49.912Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7fc2d95e-3b2e-48cd-9bfa-eb7dc5da2a83","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-3}}T14:02:51.135Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"9f91ca6d-bb4d-49bc-abb7-23330695e3f7","tool":"reschedule_delivery","status":403,"duration_ms":19}
+{"ts":"{{today-3}}T14:03:37.003Z","level":"error","service":"mcp","msg":"tool call failed","trace_id":"b52790b8-5446-4fb9-8243-1ee93198c587","tool":"get_shipment","status":500,"duration_ms":8}
+{"ts":"{{today-3}}T14:06:47.875Z","level":"info","service":"mcp","msg":"tool call","trace_id":"71179f28-e082-4255-8b7e-a4c384e08e22","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-3}}T14:06:47.933Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"71179f28-e082-4255-8b7e-a4c384e08e22","tool":"reschedule_delivery","status":409,"duration_ms":18}
+{"ts":"{{today-3}}T14:09:26.410Z","level":"info","service":"mcp","msg":"tool call","trace_id":"76c4a9d3-5a18-4833-b3c3-bb3f01262576","tool":"search_help","status":200,"duration_ms":31}
+{"ts":"{{today-3}}T14:32:54.890Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a1e007b4-9fdb-49a2-810d-d6c54f6a2a1e","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-3}}T14:34:25.547Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"074561e9-8bf7-4145-a519-7663d69eda44","tool":"reschedule_delivery","status":409,"duration_ms":30}
+{"ts":"{{today-3}}T14:34:48.532Z","level":"info","service":"mcp","msg":"tool call","trace_id":"19c99b5e-0bac-4799-bd7c-f4915cdca846","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-3}}T14:34:48.596Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"19c99b5e-0bac-4799-bd7c-f4915cdca846","tool":"reschedule_delivery","status":409,"duration_ms":24}
+{"ts":"{{today-3}}T14:34:55.122Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"a0f4a115-9a6a-468b-9b8e-6f36eef290e1","tool":"reschedule_delivery","status":403,"duration_ms":28}
+{"ts":"{{today-3}}T14:35:06.901Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2600edf2-5071-47b3-99ef-0279a1c4db0d","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-3}}T15:01:10.893Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1450523d-da81-44b5-9acc-08d7d64f7a5b","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-3}}T15:01:10.947Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"1450523d-da81-44b5-9acc-08d7d64f7a5b","tool":"reschedule_delivery","status":409,"duration_ms":14}
+{"ts":"{{today-3}}T15:01:54.355Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"43b3d564-1643-4380-b15d-3e6d757a95d2","tool":"reschedule_delivery","status":409,"duration_ms":22}
+{"ts":"{{today-3}}T15:13:29.583Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"4af7e896-aef0-4440-82c4-94cdc07df5a9","tool":"reschedule_delivery","status":409,"duration_ms":31}
+{"ts":"{{today-3}}T15:22:02.398Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4aa9552d-2f3f-41bb-bc0c-9d6ab43cda14","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-3}}T15:26:03.607Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"5c420e15-11f0-4cb6-887c-7f06081df171","tool":"reschedule_delivery","status":409,"duration_ms":31}
+{"ts":"{{today-3}}T15:39:27.747Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"5e191542-7d1e-40a9-9178-db0115a92e8b","tool":"reschedule_delivery","status":409,"duration_ms":11}
+{"ts":"{{today-3}}T15:54:00.440Z","level":"info","service":"mcp","msg":"tool call","trace_id":"57cd0002-1e31-49d1-b35d-a5f65bf3acf9","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-3}}T15:54:44.148Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d0c658e4-03f3-43ce-9636-cdf897b74310","tool":"get_shipment","status":200,"duration_ms":21}
+{"ts":"{{today-3}}T16:04:16.531Z","level":"info","service":"mcp","msg":"tool call","trace_id":"30e35263-ae94-4b7e-87ad-a0f8b354ce28","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-3}}T16:11:02.034Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5d65fafb-059a-4e36-8c14-62a4849dca78","tool":"get_shipment","status":200,"duration_ms":3}
+{"ts":"{{today-3}}T16:18:46.113Z","level":"info","service":"mcp","msg":"tool call","trace_id":"561d45bc-329f-482d-b2d8-36409f9aedfa","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-3}}T16:50:27.179Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"35ab5eea-edaf-4307-bb0f-7f7ac105c719","tool":"reschedule_delivery","status":400,"duration_ms":32}
+{"ts":"{{today-3}}T16:55:09.326Z","level":"info","service":"mcp","msg":"tool call","trace_id":"03060d04-1b3c-4b66-a238-9a7ddb5bc511","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-3}}T17:09:14.879Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3c800ad3-b58d-4dbb-bb72-cd52c4a0e70e","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-3}}T17:34:03.048Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b0e4b554-9bee-4602-bc26-0e2f3a723537","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-3}}T17:34:22.181Z","level":"info","service":"mcp","msg":"tool call","trace_id":"622c42af-635a-4b16-8021-4fa6543db117","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-3}}T17:36:21.224Z","level":"info","service":"mcp","msg":"tool call","trace_id":"48f03bb6-9334-4681-bbcc-39f4f4e75a54","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-3}}T18:09:04.297Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"7728173c-b1ea-466e-90c5-88926d7e8cc1","tool":"get_shipment","status":404,"duration_ms":31}
+{"ts":"{{today-3}}T18:18:41.713Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"455a30af-7e0f-4538-9891-d952da920a93","tool":"reschedule_delivery","status":403,"duration_ms":26}
+{"ts":"{{today-3}}T18:27:10.737Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0ff8bc0f-080d-45c1-9130-98089f18f75f","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-2}}T06:35:28.504Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fd21d3a9-3214-4de6-b404-a7b7c57ede8a","tool":"search_help","status":200,"duration_ms":28}
+{"ts":"{{today-2}}T06:51:07.899Z","level":"info","service":"mcp","msg":"tool call","trace_id":"27c8b8dc-f9c7-41d6-a03e-43c1d158f262","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-2}}T07:00:28.771Z","level":"info","service":"mcp","msg":"tool call","trace_id":"eade3274-1141-4a20-8861-f84c80a1d96e","tool":"search_help","status":200,"duration_ms":20}
+{"ts":"{{today-2}}T07:03:36.073Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5d88d0f2-0bc8-4c1a-8645-89a05017dc87","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-2}}T07:03:36.138Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"5d88d0f2-0bc8-4c1a-8645-89a05017dc87","tool":"reschedule_delivery","status":409,"duration_ms":25}
+{"ts":"{{today-2}}T07:07:04.874Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"a978d84b-fbc0-4628-8833-7acc765c7eb6","tool":"reschedule_delivery","status":400,"duration_ms":24}
+{"ts":"{{today-2}}T07:08:33.239Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1a471887-3e0a-4651-bb13-5f1bf3e5b2fb","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-2}}T07:26:09.932Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b599e81b-c184-49c4-af07-5cefd15c0965","tool":"search_help","status":200,"duration_ms":12}
+{"ts":"{{today-2}}T07:30:37.494Z","level":"info","service":"mcp","msg":"tool call","trace_id":"964d2cbb-4143-477c-a5f9-6c784b81a1bb","tool":"search_help","status":200,"duration_ms":26}
+{"ts":"{{today-2}}T07:37:48.672Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a5cb663a-9a8c-4ab8-b322-40e10c1a1e05","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-2}}T07:42:50.489Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"3204e818-b44f-463b-9380-4618058fc715","tool":"reschedule_delivery","status":409,"duration_ms":15}
+{"ts":"{{today-2}}T07:53:20.355Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"da79f5f6-954c-46a7-8573-9708386ea4ee","tool":"reschedule_delivery","status":409,"duration_ms":28}
+{"ts":"{{today-2}}T07:59:34.820Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d60724d9-2c3e-406e-a52b-13710dfb6a4d","tool":"get_shipment","status":200,"duration_ms":33}
+{"ts":"{{today-2}}T08:02:59.277Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5d1a310a-1bef-459e-a750-4860ca9fe885","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-2}}T08:04:45.063Z","level":"info","service":"mcp","msg":"tool call","trace_id":"73619d47-0ea5-4d58-a016-d34044626fb1","tool":"search_help","status":200,"duration_ms":26}
+{"ts":"{{today-2}}T08:10:07.461Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"b4c18800-fe2c-4c1d-930b-43d26c8ab9e0","tool":"reschedule_delivery","status":403,"duration_ms":11}
+{"ts":"{{today-2}}T08:12:00.005Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a9a387f2-86ed-485a-87da-f055f70b4eef","tool":"reschedule_delivery","status":200,"duration_ms":8}
+{"ts":"{{today-2}}T08:29:46.992Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e3a89c6d-20c9-4007-a11c-849548e2f596","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-2}}T08:30:42.751Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7b6266a9-9e94-45ab-81a1-8d514a0521ff","tool":"search_help","status":200,"duration_ms":7}
+{"ts":"{{today-2}}T08:37:50.250Z","level":"info","service":"mcp","msg":"tool call","trace_id":"29319991-fba9-4e01-9000-dc943683ac5c","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-2}}T08:43:59.969Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0286bffc-e7a3-4437-9fe8-42ec6a88d08d","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-2}}T08:43:59.984Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0286bffc-e7a3-4437-9fe8-42ec6a88d08d","tool":"open_ticket","status":201,"duration_ms":4}
+{"ts":"{{today-2}}T08:46:06.095Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7031f5e5-ab84-4c83-9d0c-0c04ebbd5e6e","tool":"get_shipment","status":200,"duration_ms":6}
+{"ts":"{{today-2}}T08:46:12.592Z","level":"info","service":"mcp","msg":"tool call","trace_id":"356c43cb-a954-4492-b75c-865d4cff0b55","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-2}}T09:10:10.096Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5cf75a40-be01-487f-804c-1447275f3b78","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-2}}T09:12:09.488Z","level":"info","service":"mcp","msg":"tool call","trace_id":"17d79adb-680b-4eee-81c2-e2f756450aa1","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-2}}T09:20:59.996Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0a6bb6ce-ad51-4dee-8268-4654e143935c","tool":"reschedule_delivery","status":200,"duration_ms":4}
+{"ts":"{{today-2}}T09:25:24.261Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cf35a4d1-5b91-4c00-b82b-ce36d24f8431","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-2}}T09:30:15.037Z","level":"info","service":"mcp","msg":"tool call","trace_id":"355faa1e-ded4-4e2a-bf47-5a105e989012","tool":"search_help","status":200,"duration_ms":21}
+{"ts":"{{today-2}}T09:31:46.817Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"0410075e-91cb-4473-adb3-ac5e19298d23","tool":"reschedule_delivery","status":409,"duration_ms":25}
+{"ts":"{{today-2}}T09:38:48.543Z","level":"info","service":"mcp","msg":"tool call","trace_id":"45b6856c-18c3-47c8-ac0d-da072b266c9f","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-2}}T09:42:13.336Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e46f2b66-1e55-45d4-b097-79f4620aeb0c","tool":"get_shipment","status":200,"duration_ms":3}
+{"ts":"{{today-2}}T09:43:11.502Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cbcd54f7-0c2d-48f4-9727-d9f5dd3aabcd","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-2}}T09:55:03.936Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5d51e25a-34dc-4554-9ee0-72c13355973d","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-2}}T09:55:03.985Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"5d51e25a-34dc-4554-9ee0-72c13355973d","tool":"reschedule_delivery","status":409,"duration_ms":9}
+{"ts":"{{today-2}}T10:09:00.027Z","level":"info","service":"mcp","msg":"tool call","trace_id":"92434aa1-e0b7-460b-b0ed-b1c4db8d17f2","tool":"reschedule_delivery","status":200,"duration_ms":31}
+{"ts":"{{today-2}}T10:28:28.005Z","level":"info","service":"mcp","msg":"tool call","trace_id":"38d6850f-40da-4a85-8e77-8c8660bec808","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-2}}T10:33:17.374Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5f4a067a-3cee-409b-9252-86a2779206fc","tool":"search_help","status":200,"duration_ms":27}
+{"ts":"{{today-2}}T10:47:39.275Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"2c0c8bb7-a2a3-4853-a67b-a5e577bc8640","tool":"get_shipment","status":404,"duration_ms":8}
+{"ts":"{{today-2}}T10:49:17.040Z","level":"info","service":"mcp","msg":"tool call","trace_id":"37eb9f4b-336c-41ec-a6b2-6cf6b62d704e","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-2}}T10:54:42.663Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e841ba27-bec9-4ad2-9e06-a148836c5a20","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-2}}T10:55:59.935Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b42090a3-701b-43c8-a878-63e48ab52981","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-2}}T10:55:59.973Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b42090a3-701b-43c8-a878-63e48ab52981","tool":"open_ticket","status":201,"duration_ms":12}
+{"ts":"{{today-2}}T10:56:40.347Z","level":"info","service":"mcp","msg":"tool call","trace_id":"680f5bae-e177-48be-8bf5-0e0bc94a6ae1","tool":"search_help","status":200,"duration_ms":25}
+{"ts":"{{today-2}}T11:00:03.369Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"f515b1ff-b7c5-448b-aa4b-cc2ef239a3b9","tool":"reschedule_delivery","status":409,"duration_ms":27}
+{"ts":"{{today-2}}T11:05:20.207Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5f1c30a7-4c7d-47d0-9275-d8b219ba4809","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-2}}T11:11:51.611Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d65184c6-8e47-49f8-8506-d63ace9f4616","tool":"search_help","status":200,"duration_ms":9}
+{"ts":"{{today-2}}T11:17:41.673Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"5646e306-9519-43d8-bc46-b4868ce1a4b4","tool":"reschedule_delivery","status":409,"duration_ms":14}
+{"ts":"{{today-2}}T11:21:41.897Z","level":"info","service":"mcp","msg":"tool call","trace_id":"38e69a94-6773-4618-98f2-d92801c9bb11","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-2}}T11:21:41.955Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"38e69a94-6773-4618-98f2-d92801c9bb11","tool":"reschedule_delivery","status":409,"duration_ms":18}
+{"ts":"{{today-2}}T11:29:24.887Z","level":"info","service":"mcp","msg":"tool call","trace_id":"caf25d9f-9560-4d5d-b3eb-49925fb01211","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-2}}T11:39:11.020Z","level":"info","service":"mcp","msg":"tool call","trace_id":"019e726f-9e3b-40e1-bcae-c6c8c30d7761","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-2}}T11:44:03.748Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"1a58b3de-d425-4402-8798-84fc1279dad0","tool":"reschedule_delivery","status":403,"duration_ms":4}
+{"ts":"{{today-2}}T11:48:29.375Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ab3c1746-60b8-4de6-93e9-f16c03aae23a","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-2}}T12:18:00.021Z","level":"info","service":"mcp","msg":"tool call","trace_id":"84d36685-0963-4183-8799-d170d4007f72","tool":"reschedule_delivery","status":200,"duration_ms":29}
+{"ts":"{{today-2}}T12:26:16.552Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"abd14553-b585-432e-88d4-ecd8bde17ca9","tool":"reschedule_delivery","status":403,"duration_ms":21}
+{"ts":"{{today-2}}T12:27:19.690Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"39dd8d86-09da-4111-8260-65c9113b4e08","tool":"get_shipment","status":404,"duration_ms":27}
+{"ts":"{{today-2}}T12:31:34.365Z","level":"info","service":"mcp","msg":"tool call","trace_id":"422b5824-05d3-4147-b811-e5128f0120e9","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-2}}T12:33:17.661Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3ce2a78f-36f9-49b2-ba07-614245f9b8b7","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-2}}T12:35:40.891Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c8139834-5232-4c86-aab7-9f74e6637984","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-2}}T12:39:01.226Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e21902c5-00a4-4f61-91bf-86590d787d36","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-2}}T12:39:01.296Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"e21902c5-00a4-4f61-91bf-86590d787d36","tool":"reschedule_delivery","status":409,"duration_ms":30}
+{"ts":"{{today-2}}T12:59:39.025Z","level":"info","service":"mcp","msg":"tool call","trace_id":"375042a2-2c6b-4647-8b1b-e5c58286689f","tool":"get_shipment","status":200,"duration_ms":6}
+{"ts":"{{today-2}}T13:05:33.584Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6a4825fe-160f-4b54-9e97-9a25cf3e9b5f","tool":"search_help","status":200,"duration_ms":32}
+{"ts":"{{today-2}}T13:09:16.911Z","level":"info","service":"mcp","msg":"tool call","trace_id":"926e07cc-2bd9-40a0-a7bc-dc3ab3235780","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-2}}T13:11:58.369Z","level":"info","service":"mcp","msg":"tool call","trace_id":"58bb43e6-7aab-4b62-8f7b-1f3f30da3e91","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-2}}T13:15:17.340Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"db09526e-8565-43fc-823e-325e5b2e0d0c","tool":"reschedule_delivery","status":409,"duration_ms":16}
+{"ts":"{{today-2}}T13:31:13.724Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"1d577f22-c62d-4f45-90b0-daca11ec14ea","tool":"reschedule_delivery","status":409,"duration_ms":12}
+{"ts":"{{today-2}}T13:34:04.298Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0b1b54b7-e3f1-4b1a-a390-c31f642c5010","tool":"search_help","status":200,"duration_ms":19}
+{"ts":"{{today-2}}T13:36:00.017Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c5bd6fcb-21ec-459e-a588-57dbf6fada38","tool":"reschedule_delivery","status":200,"duration_ms":21}
+{"ts":"{{today-2}}T13:38:45.160Z","level":"info","service":"mcp","msg":"tool call","trace_id":"54b9235c-8fa9-4a99-99c8-ef68d2de2e94","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-2}}T13:43:20.530Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f84c54ca-6f9e-4242-89ee-3730d979f4e7","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-2}}T13:53:00.947Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5e388896-b63f-4dfb-87e2-ac6eb822a574","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-2}}T13:59:38.157Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"d5b446e8-073a-4421-b434-19f69df86b87","tool":"reschedule_delivery","status":409,"duration_ms":29}
+{"ts":"{{today-2}}T14:06:57.731Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fff44476-8fbc-4d39-b3ff-1b2bf99f007d","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-2}}T14:07:06.919Z","level":"info","service":"mcp","msg":"tool call","trace_id":"22a1e18f-06ed-4622-99ab-4b8fb3455e58","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-2}}T14:09:49.991Z","level":"info","service":"mcp","msg":"tool call","trace_id":"db46a1fe-e9b8-4d9a-b6db-1578c142efdf","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-2}}T14:13:59.160Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f046db27-1718-4ed4-a4fa-f0b74d1c3819","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-2}}T14:23:59.999Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0945815e-07db-4165-bfb1-03979023e89f","tool":"reschedule_delivery","status":200,"duration_ms":6}
+{"ts":"{{today-2}}T14:34:43.159Z","level":"info","service":"mcp","msg":"tool call","trace_id":"58f8effb-adb9-42a2-bf5a-9c9e24e79b43","tool":"search_help","status":200,"duration_ms":23}
+{"ts":"{{today-2}}T14:42:04.302Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"85f3e91c-a350-4599-b224-951796144bee","tool":"reschedule_delivery","status":409,"duration_ms":8}
+{"ts":"{{today-2}}T14:45:35.749Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ab4492be-a5fd-4d85-b2d2-e2768a64a91d","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-2}}T15:01:59.959Z","level":"info","service":"mcp","msg":"tool call","trace_id":"36999ab5-d1a0-46ad-988a-d41488dbb1a8","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-2}}T15:01:59.995Z","level":"info","service":"mcp","msg":"tool call","trace_id":"36999ab5-d1a0-46ad-988a-d41488dbb1a8","tool":"open_ticket","status":201,"duration_ms":20}
+{"ts":"{{today-2}}T15:05:22.512Z","level":"info","service":"mcp","msg":"tool call","trace_id":"541642e4-b0fd-4d66-8f53-836315b8df2c","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-2}}T15:05:22.573Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"541642e4-b0fd-4d66-8f53-836315b8df2c","tool":"reschedule_delivery","status":409,"duration_ms":21}
+{"ts":"{{today-2}}T15:10:15.494Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a6d05f18-0041-4a67-bce7-4ccc36748424","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-2}}T15:14:07.123Z","level":"info","service":"mcp","msg":"tool call","trace_id":"947f40df-f039-4939-b989-8e0b7a1a2d1d","tool":"get_shipment","status":200,"duration_ms":11}
+{"ts":"{{today-2}}T15:33:00.006Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c759ac46-db25-4de2-bb1a-00c38e29486e","tool":"reschedule_delivery","status":200,"duration_ms":15}
+{"ts":"{{today-2}}T15:33:32.701Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a2b5003f-7e04-411a-b6bf-37b8f4646e94","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-2}}T15:36:02.345Z","level":"info","service":"mcp","msg":"tool call","trace_id":"795d3733-e61a-4172-aa47-e2b64e8ba00f","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-2}}T15:37:59.965Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c0eedab4-3f64-4661-9c6f-d32dfabb6d92","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-2}}T15:37:59.989Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c0eedab4-3f64-4661-9c6f-d32dfabb6d92","tool":"open_ticket","status":201,"duration_ms":16}
+{"ts":"{{today-2}}T15:49:59.969Z","level":"info","service":"mcp","msg":"tool call","trace_id":"26978de1-bf3b-48eb-852f-02db83825c48","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-2}}T15:49:59.993Z","level":"info","service":"mcp","msg":"tool call","trace_id":"26978de1-bf3b-48eb-852f-02db83825c48","tool":"open_ticket","status":201,"duration_ms":17}
+{"ts":"{{today-2}}T15:57:58.479Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b287c1b8-3db0-493f-a2d5-8c77a8cbe60b","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-2}}T16:00:04.380Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"1a443e55-6558-4b4a-abee-49848157625a","tool":"reschedule_delivery","status":409,"duration_ms":31}
+{"ts":"{{today-2}}T16:18:14.221Z","level":"info","service":"mcp","msg":"tool call","trace_id":"998c4ea0-5975-4e8e-b5f6-e15ea09c1d46","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-2}}T16:45:13.598Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1cac483e-5c25-46eb-b2ab-c1886a8999f4","tool":"get_shipment","status":200,"duration_ms":11}
+{"ts":"{{today-2}}T17:19:59.186Z","level":"info","service":"mcp","msg":"tool call","trace_id":"feee0e1c-1ade-4e23-a4de-2289432e512f","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-2}}T17:52:12.929Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8d7bbca7-d9b3-4503-a7e3-4eecf78d4f74","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-2}}T18:07:26.164Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f963992e-35ac-481f-89c1-188e9aebaf3c","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-2}}T18:07:26.233Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"f963992e-35ac-481f-89c1-188e9aebaf3c","tool":"reschedule_delivery","status":409,"duration_ms":29}
+{"ts":"{{today-2}}T18:22:00.171Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"dbbfb0fd-2b98-426e-977f-3503641defea","tool":"reschedule_delivery","status":409,"duration_ms":25}
+{"ts":"{{today-1}}T06:00:23.517Z","level":"info","service":"mcp","msg":"tool call","trace_id":"22b0f68f-e779-44b6-9f77-6eecc4aa0384","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-1}}T06:11:42.735Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a6088edf-e6cb-40c6-a28e-5d916dc46802","tool":"search_help","status":200,"duration_ms":29}
+{"ts":"{{today-1}}T06:22:16.692Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0c1ffc82-2793-4e73-b8cb-6f9e6e9a79c0","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-1}}T06:31:14.602Z","level":"info","service":"mcp","msg":"tool call","trace_id":"615b49f4-1ad5-44c4-9b89-ab8c092307f7","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-1}}T06:37:59.912Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"69c6d2c8-bd1f-49c3-8cb3-7f0130ae839e","tool":"get_shipment","status":404,"duration_ms":27}
+{"ts":"{{today-1}}T06:41:10.992Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ba5566cc-840e-415e-b657-3b2df771e970","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-1}}T06:46:26.025Z","level":"info","service":"mcp","msg":"tool call","trace_id":"dfbbbbe3-f879-4eb0-9a29-403372bff125","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-1}}T06:47:57.431Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4a4b0a2c-c6bb-4cb6-b372-7375ff4524b8","tool":"search_help","status":200,"duration_ms":9}
+{"ts":"{{today-1}}T07:07:21.327Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"11117adf-b391-429a-9bf3-599f237e1103","tool":"reschedule_delivery","status":409,"duration_ms":13}
+{"ts":"{{today-1}}T07:13:33.379Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7d245236-356e-4b44-97aa-4193b8c2c289","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-1}}T07:29:49.513Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c9119fd6-555f-44f0-aba0-51412215714e","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-1}}T07:30:46.755Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9cee5817-73ba-4abb-82c6-c161b5b52936","tool":"get_shipment","status":200,"duration_ms":32}
+{"ts":"{{today-1}}T07:35:36.886Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0cfd1ef0-03d1-44f8-b9b4-fac0966f332d","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-1}}T07:41:41.301Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3b083107-5ba4-4683-90c3-fa5591dac0df","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-1}}T07:43:01.039Z","level":"info","service":"mcp","msg":"tool call","trace_id":"53d636c3-ce19-45f1-ac01-a5afc0710343","tool":"get_shipment","status":200,"duration_ms":32}
+{"ts":"{{today-1}}T07:47:29.273Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ad7d1e28-9a72-4954-9231-5b92eb95181d","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-1}}T08:23:41.762Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fd18ba4b-172b-4f13-8b73-314cca94b994","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-1}}T08:40:30.997Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9a32f6cf-8446-40ae-b0b4-d3189664741b","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-1}}T08:40:43.399Z","level":"info","service":"mcp","msg":"tool call","trace_id":"0a933976-f308-4fd6-9c8e-0cf2bc580b94","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-1}}T08:42:25.295Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2d16af44-7417-408e-afa4-67bb635781a6","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-1}}T08:46:53.357Z","level":"info","service":"mcp","msg":"tool call","trace_id":"54ab3744-33e9-4b11-868d-8617f47b3800","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-1}}T08:46:53.413Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"54ab3744-33e9-4b11-868d-8617f47b3800","tool":"reschedule_delivery","status":409,"duration_ms":16}
+{"ts":"{{today-1}}T08:57:04.397Z","level":"info","service":"mcp","msg":"tool call","trace_id":"393b2cf3-1801-484f-bc04-e5f631397dba","tool":"search_help","status":200,"duration_ms":9}
+{"ts":"{{today-1}}T08:59:59.953Z","level":"info","service":"mcp","msg":"tool call","trace_id":"000b70f3-6bd4-4bb4-b04e-4636026d4797","tool":"get_shipment","status":200,"duration_ms":14}
+{"ts":"{{today-1}}T08:59:59.989Z","level":"info","service":"mcp","msg":"tool call","trace_id":"000b70f3-6bd4-4bb4-b04e-4636026d4797","tool":"open_ticket","status":201,"duration_ms":20}
+{"ts":"{{today-1}}T09:05:14.686Z","level":"info","service":"mcp","msg":"tool call","trace_id":"18e78a1d-15ce-472f-a229-bff4173f2d1f","tool":"get_shipment","status":200,"duration_ms":24}
+{"ts":"{{today-1}}T09:05:14.758Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"18e78a1d-15ce-472f-a229-bff4173f2d1f","tool":"reschedule_delivery","status":409,"duration_ms":32}
+{"ts":"{{today-1}}T09:10:56.183Z","level":"info","service":"mcp","msg":"tool call","trace_id":"7597b54a-d161-407c-96da-d61f8fc140c9","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-1}}T09:22:08.827Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f24a2fb3-c1cf-47c3-b5ee-8fe6e1bcc0d0","tool":"get_shipment","status":200,"duration_ms":30}
+{"ts":"{{today-1}}T09:27:01.866Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"82fdde7e-be7a-476d-9c7a-b55e55d3c8d3","tool":"reschedule_delivery","status":409,"duration_ms":19}
+{"ts":"{{today-1}}T09:35:59.965Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d372a441-ab62-4e2b-9784-56a6b9dd7676","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-1}}T09:35:59.994Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d372a441-ab62-4e2b-9784-56a6b9dd7676","tool":"open_ticket","status":201,"duration_ms":28}
+{"ts":"{{today-1}}T09:46:44.796Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"eb90529d-9512-4e4f-830b-97f7994aa9d5","tool":"get_shipment","status":404,"duration_ms":19}
+{"ts":"{{today-1}}T09:47:59.957Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8c3a9686-0a08-4c34-b415-0dcea5d44a8f","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-1}}T09:48:00.007Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8c3a9686-0a08-4c34-b415-0dcea5d44a8f","tool":"open_ticket","status":201,"duration_ms":24}
+{"ts":"{{today-1}}T09:55:56.476Z","level":"info","service":"mcp","msg":"tool call","trace_id":"516fd37b-30dd-4bae-b0a9-35b5e657deaa","tool":"get_shipment","status":200,"duration_ms":26}
+{"ts":"{{today-1}}T10:02:27.638Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1d866cd1-1977-4b72-b335-5d84e003677a","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-1}}T10:20:01.594Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cfcdccfd-4463-430d-9cb4-332d7ba41976","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-1}}T10:30:56.364Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2b4bef96-a8af-4d48-aca2-06ad8ac40bd6","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-1}}T10:30:56.420Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"2b4bef96-a8af-4d48-aca2-06ad8ac40bd6","tool":"reschedule_delivery","status":409,"duration_ms":16}
+{"ts":"{{today-1}}T10:37:57.652Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b5eee8a7-48b1-4a4e-83a5-471a9cc560b6","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-1}}T10:46:14.592Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cf3e676e-1c79-4d8d-a847-634522bf8b38","tool":"get_shipment","status":200,"duration_ms":27}
+{"ts":"{{today-1}}T10:46:14.658Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"cf3e676e-1c79-4d8d-a847-634522bf8b38","tool":"reschedule_delivery","status":409,"duration_ms":26}
+{"ts":"{{today-1}}T10:47:01.960Z","level":"info","service":"mcp","msg":"tool call","trace_id":"50636def-63da-45b8-aa02-f1037f7918c6","tool":"get_shipment","status":200,"duration_ms":5}
+{"ts":"{{today-1}}T11:02:47.411Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1351d932-5af6-4e07-bc1b-d1e8a3b674e7","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-1}}T11:04:08.990Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"11d2e529-a610-4154-94dd-87fbec5ea51a","tool":"reschedule_delivery","status":409,"duration_ms":28}
+{"ts":"{{today-1}}T11:12:23.358Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"ddd5f193-a245-44ab-adc7-e1456cea1063","tool":"get_shipment","status":404,"duration_ms":4}
+{"ts":"{{today-1}}T11:12:30.930Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8d07b6d0-6c07-4b86-9b9f-f446fb8c9389","tool":"get_shipment","status":200,"duration_ms":21}
+{"ts":"{{today-1}}T11:13:30.231Z","level":"info","service":"mcp","msg":"tool call","trace_id":"2d9378f0-292e-4405-bcbe-308ba8a96892","tool":"get_shipment","status":200,"duration_ms":23}
+{"ts":"{{today-1}}T11:25:52.323Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"bca77e4b-54d9-49db-b680-88cdd8c8eae5","tool":"reschedule_delivery","status":403,"duration_ms":22}
+{"ts":"{{today-1}}T11:26:06.081Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3de35169-c156-4f53-b89d-25bd28637961","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-1}}T11:34:05.494Z","level":"info","service":"mcp","msg":"tool call","trace_id":"83dfac58-17c4-4fa1-af69-92f8f57cfae6","tool":"search_help","status":200,"duration_ms":13}
+{"ts":"{{today-1}}T11:38:29.094Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cda6367c-a69c-4a6a-8b04-e2f1c875aec2","tool":"search_help","status":200,"duration_ms":22}
+{"ts":"{{today-1}}T11:54:24.586Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f983ab89-e4b5-4d3f-bd10-39886dea1ea0","tool":"search_help","status":200,"duration_ms":4}
+{"ts":"{{today-1}}T11:57:26.802Z","level":"info","service":"mcp","msg":"tool call","trace_id":"93fdae30-c8d5-4f51-a7be-9a0634026204","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-1}}T12:04:05.603Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c1bce4e4-1f1b-40da-8729-7da9ef38f2bc","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-1}}T12:06:15.356Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f46e67c4-5481-4f1b-bfa6-7e49f08b231a","tool":"get_shipment","status":200,"duration_ms":10}
+{"ts":"{{today-1}}T12:32:31.725Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b5c1d7d9-2834-48d4-ac75-37e4e060ae75","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-1}}T12:45:38.217Z","level":"info","service":"mcp","msg":"tool call","trace_id":"4581db91-4696-486e-8ba3-27565884ce87","tool":"get_shipment","status":200,"duration_ms":13}
+{"ts":"{{today-1}}T12:56:41.009Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"08576bc5-29d8-4966-b085-b1dcdc12d46f","tool":"reschedule_delivery","status":409,"duration_ms":4}
+{"ts":"{{today-1}}T13:02:06.355Z","level":"info","service":"mcp","msg":"tool call","trace_id":"f3c0fa0d-1f37-43a3-ad5e-cef0ea2640fb","tool":"get_shipment","status":200,"duration_ms":18}
+{"ts":"{{today-1}}T13:02:06.421Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"f3c0fa0d-1f37-43a3-ad5e-cef0ea2640fb","tool":"reschedule_delivery","status":409,"duration_ms":26}
+{"ts":"{{today-1}}T13:09:34.300Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5a3770c9-5e7c-4493-84d5-745c572ec217","tool":"get_shipment","status":200,"duration_ms":32}
+{"ts":"{{today-1}}T13:15:24.759Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"b0e99bf8-2cbe-4c2d-a17e-1f1b8c3ec7e9","tool":"reschedule_delivery","status":409,"duration_ms":18}
+{"ts":"{{today-1}}T13:20:25.747Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d140060a-ef38-434c-9d1b-1a076a8ad8f2","tool":"get_shipment","status":200,"duration_ms":19}
+{"ts":"{{today-1}}T13:23:06.362Z","level":"info","service":"mcp","msg":"tool call","trace_id":"6cfaee50-10fd-474e-9561-1f710c88b5f9","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-1}}T13:24:09.097Z","level":"info","service":"mcp","msg":"tool call","trace_id":"41ec5b7a-6e55-4590-a1b7-c35737a1deaf","tool":"search_help","status":200,"duration_ms":15}
+{"ts":"{{today-1}}T13:27:24.980Z","level":"info","service":"mcp","msg":"tool call","trace_id":"708bf912-4759-4da3-89f1-f26b64d780ba","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-1}}T13:28:35.168Z","level":"info","service":"mcp","msg":"tool call","trace_id":"02489776-5005-47c1-a4dd-ee0ad9208a92","tool":"get_shipment","status":200,"duration_ms":29}
+{"ts":"{{today-1}}T13:32:22.641Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"c929421c-1382-4fec-a798-cd9903a31acb","tool":"reschedule_delivery","status":409,"duration_ms":8}
+{"ts":"{{today-1}}T13:41:07.528Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c7c84b37-e937-41fc-bb78-92e79e5bf482","tool":"get_shipment","status":200,"duration_ms":30}
+{"ts":"{{today-1}}T13:41:59.959Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cb12affd-aaa1-4f98-b7c4-e2ea621111e9","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-1}}T13:41:59.982Z","level":"info","service":"mcp","msg":"tool call","trace_id":"cb12affd-aaa1-4f98-b7c4-e2ea621111e9","tool":"open_ticket","status":201,"duration_ms":8}
+{"ts":"{{today-1}}T13:45:51.516Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"27e95fc6-f6e8-4a15-8abf-785b1a3b9dd4","tool":"reschedule_delivery","status":409,"duration_ms":9}
+{"ts":"{{today-1}}T13:55:21.574Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b475c1d0-dc03-4ce0-9a4f-171b3c167023","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-1}}T13:56:48.054Z","level":"info","service":"mcp","msg":"tool call","trace_id":"fbdb7261-df16-440a-b4cf-1f0191924eda","tool":"get_shipment","status":200,"duration_ms":32}
+{"ts":"{{today-1}}T14:02:40.266Z","level":"info","service":"mcp","msg":"tool call","trace_id":"d2d365ac-bb5d-47bf-9b59-acb697367981","tool":"get_shipment","status":200,"duration_ms":8}
+{"ts":"{{today-1}}T14:11:18.400Z","level":"info","service":"mcp","msg":"tool call","trace_id":"488480da-4256-4767-a413-a3d8c5197fb9","tool":"get_shipment","status":200,"duration_ms":28}
+{"ts":"{{today-1}}T14:11:18.454Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"488480da-4256-4767-a413-a3d8c5197fb9","tool":"reschedule_delivery","status":409,"duration_ms":14}
+{"ts":"{{today-1}}T14:13:17.256Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1b3cddbd-78a3-4979-bbd7-661d18167640","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-1}}T14:21:00.001Z","level":"info","service":"mcp","msg":"tool call","trace_id":"5446a7a2-23bf-4ebe-a4b1-8aeaf9b52e5a","tool":"reschedule_delivery","status":200,"duration_ms":4}
+{"ts":"{{today-1}}T14:29:59.957Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a472fd21-277c-4aef-b9b4-e52f15b2f61f","tool":"get_shipment","status":200,"duration_ms":16}
+{"ts":"{{today-1}}T14:29:59.983Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a472fd21-277c-4aef-b9b4-e52f15b2f61f","tool":"open_ticket","status":201,"duration_ms":12}
+{"ts":"{{today-1}}T14:31:51.063Z","level":"info","service":"mcp","msg":"tool call","trace_id":"434753ca-ac9b-46a2-ad60-3560a0e27124","tool":"get_shipment","status":200,"duration_ms":7}
+{"ts":"{{today-1}}T14:31:51.115Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"434753ca-ac9b-46a2-ad60-3560a0e27124","tool":"reschedule_delivery","status":409,"duration_ms":12}
+{"ts":"{{today-1}}T14:36:00.019Z","level":"info","service":"mcp","msg":"tool call","trace_id":"b8371cdb-e0ac-4e89-87e7-0b14920ad471","tool":"reschedule_delivery","status":200,"duration_ms":28}
+{"ts":"{{today-1}}T14:40:49.014Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9564d385-71c5-43a1-92db-403f74b5bef7","tool":"get_shipment","status":200,"duration_ms":31}
+{"ts":"{{today-1}}T14:57:00.015Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9a4a2b76-e85a-425b-89de-b9719ebcd54a","tool":"reschedule_delivery","status":200,"duration_ms":24}
+{"ts":"{{today-1}}T15:08:37.454Z","level":"info","service":"mcp","msg":"tool call","trace_id":"a5a08555-dd2d-430c-a9ba-4cd3e2fd7920","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-1}}T15:11:10.110Z","level":"info","service":"mcp","msg":"tool call","trace_id":"3ef7da3c-9c1f-4083-80d6-ca38896a60db","tool":"search_help","status":200,"duration_ms":31}
+{"ts":"{{today-1}}T15:12:09.274Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"0b0d72f9-185b-4786-a446-c8ffea48dafd","tool":"get_shipment","status":404,"duration_ms":8}
+{"ts":"{{today-1}}T15:17:44.423Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1259afbd-ec71-49c2-a22a-1f47223c5301","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-1}}T15:27:02.093Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"3a4d28ba-1fec-452a-b846-43dd4949f46e","tool":"reschedule_delivery","status":409,"duration_ms":15}
+{"ts":"{{today-1}}T15:46:13.766Z","level":"info","service":"mcp","msg":"tool call","trace_id":"940f45ce-0441-4e76-8d1e-bb16d5d5ced4","tool":"get_shipment","status":200,"duration_ms":6}
+{"ts":"{{today-1}}T15:53:56.712Z","level":"info","service":"mcp","msg":"tool call","trace_id":"e85c7fa8-d9a1-439f-8316-ec64ac84031e","tool":"get_shipment","status":200,"duration_ms":6}
+{"ts":"{{today-1}}T15:53:59.941Z","level":"info","service":"mcp","msg":"tool call","trace_id":"bcbb0980-b915-4501-92d9-44df3820d4fd","tool":"get_shipment","status":200,"duration_ms":4}
+{"ts":"{{today-1}}T15:53:59.981Z","level":"info","service":"mcp","msg":"tool call","trace_id":"bcbb0980-b915-4501-92d9-44df3820d4fd","tool":"open_ticket","status":201,"duration_ms":14}
+{"ts":"{{today-1}}T15:54:16.946Z","level":"info","service":"mcp","msg":"tool call","trace_id":"9819547e-3685-4358-96f0-98c4b37c9078","tool":"get_shipment","status":200,"duration_ms":34}
+{"ts":"{{today-1}}T16:01:50.942Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c15e2eb3-f062-4f93-bf14-622fefb48de2","tool":"get_shipment","status":200,"duration_ms":25}
+{"ts":"{{today-1}}T16:01:51.002Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"c15e2eb3-f062-4f93-bf14-622fefb48de2","tool":"reschedule_delivery","status":409,"duration_ms":20}
+{"ts":"{{today-1}}T16:08:11.176Z","level":"info","service":"mcp","msg":"tool call","trace_id":"40d63f10-6838-4824-a5a8-84ff4217ddd2","tool":"get_shipment","status":200,"duration_ms":16}
+{"ts":"{{today-1}}T16:14:44.398Z","level":"info","service":"mcp","msg":"tool call","trace_id":"747d71b7-81e2-4d95-b194-42330cce3ef2","tool":"get_shipment","status":200,"duration_ms":9}
+{"ts":"{{today-1}}T16:43:48.569Z","level":"info","service":"mcp","msg":"tool call","trace_id":"c6ba5520-dba9-4a93-a35d-a9b90b41d306","tool":"search_help","status":200,"duration_ms":7}
+{"ts":"{{today-1}}T16:48:35.274Z","level":"info","service":"mcp","msg":"tool call","trace_id":"1b94690f-8aa0-45b4-9f50-6139bddc1fba","tool":"get_shipment","status":200,"duration_ms":12}
+{"ts":"{{today-1}}T16:50:56.472Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"f68f38ab-d20f-4947-abc5-f454ed7ee24a","tool":"reschedule_delivery","status":403,"duration_ms":6}
+{"ts":"{{today-1}}T17:05:14.900Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8cfb33a5-4fe7-49f4-a46f-064f99735671","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-1}}T17:05:14.966Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"8cfb33a5-4fe7-49f4-a46f-064f99735671","tool":"reschedule_delivery","status":409,"duration_ms":26}
+{"ts":"{{today-1}}T17:07:36.204Z","level":"info","service":"mcp","msg":"tool call","trace_id":"58f8c7e3-65b8-42f9-9c13-d278d79d5316","tool":"get_shipment","status":200,"duration_ms":21}
+{"ts":"{{today-1}}T17:13:39.448Z","level":"info","service":"mcp","msg":"tool call","trace_id":"31e2b67d-1265-449e-9c5b-dd322d14487e","tool":"get_shipment","status":200,"duration_ms":15}
+{"ts":"{{today-1}}T18:07:39.132Z","level":"info","service":"mcp","msg":"tool call","trace_id":"eab1b149-96b0-4137-b1dc-790839262c73","tool":"get_shipment","status":200,"duration_ms":22}
+{"ts":"{{today-1}}T18:07:39.191Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"eab1b149-96b0-4137-b1dc-790839262c73","tool":"reschedule_delivery","status":409,"duration_ms":19}
+{"ts":"{{today-1}}T18:09:13.014Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"8239df08-71e0-4d9c-b59e-cdb73259454f","tool":"reschedule_delivery","status":409,"duration_ms":21}
+{"ts":"{{today-1}}T18:09:59.120Z","level":"warn","service":"mcp","msg":"tool call failed","trace_id":"79ed236c-2bde-4d5d-ab6c-7333c2cea54e","tool":"reschedule_delivery","status":400,"duration_ms":28}
+{"ts":"{{today-1}}T18:15:38.227Z","level":"info","service":"mcp","msg":"tool call","trace_id":"04352e13-f386-415b-9adb-801b3fd5272d","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-1}}T18:19:40.276Z","level":"info","service":"mcp","msg":"tool call","trace_id":"064293ee-7f43-4ae2-abe8-d376e1d13e5f","tool":"get_shipment","status":200,"duration_ms":30}
+{"ts":"{{today-1}}T18:26:33.495Z","level":"info","service":"mcp","msg":"tool call","trace_id":"8c5a95f3-0d33-49d9-a6c1-d51b744157e3","tool":"get_shipment","status":200,"duration_ms":17}
+{"ts":"{{today-1}}T18:27:14.351Z","level":"info","service":"mcp","msg":"tool call","trace_id":"07acffd6-7a6b-4a98-91af-3654910b9617","tool":"get_shipment","status":200,"duration_ms":20}
+{"ts":"{{today-1}}T18:27:55.979Z","level":"info","service":"mcp","msg":"tool call","trace_id":"ae5886c1-4dc2-40e7-ade1-f36c1ac61828","tool":"get_shipment","status":200,"duration_ms":6}

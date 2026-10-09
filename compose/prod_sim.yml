@@ -1,0 +1,40 @@
+# prod_sim: Kervan's "production". Confidential synthetic customer data
+# (seed/prod_sim.sql), pre-baked history logs with an embedded incident
+# (seed/prod_sim/logs), and the read replica of Mandate's read broker:
+# PostgreSQL on 127.0.0.1:55432, to be used only as role kervan_reader.
+# Agents never write here; writes go only through the CD adapter.
+#
+#   docker compose -p kervan-prod_sim -f base.yml -f prod_sim.yml up -d --build
+#
+# KERVAN_DATA  host directory for prod_sim's logs (default ../data, i.e.
+#              kervan-system/data); the logs land in $KERVAN_DATA/prod_sim/logs,
+#              where the read broker reads them.
+
+x-host-logs: &host-logs ${KERVAN_DATA:-../data}/prod_sim/logs:/var/log/kervan
+
+services:
+  postgres:
+    ports: ["127.0.0.1:55432:5432"]
+  logs-init:
+    environment:
+      KERVAN_ENV: prod_sim
+    volumes:
+      - *host-logs
+  core:
+    volumes:
+      - *host-logs
+  auth:
+    volumes:
+      - *host-logs
+  search:
+    volumes:
+      - *host-logs
+  mcp:
+    volumes:
+      - *host-logs
+  voice:
+    volumes:
+      - *host-logs
+  seed:
+    environment:
+      KERVAN_ENV: prod_sim
