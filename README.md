@@ -1,9 +1,62 @@
-# kervan-system
+# Kervan
 
-The seventh repository of **Kervan**, the fictional cargo and delivery company
-that Mandate's brownfield work is built and measured on (design doc 9 §10). It
-owns no service. It holds what ties the six service repositories into one
-system:
+**Kervan** is a fictional cargo and delivery company, built as a working
+reference for one question: what does a backend need before an AI agent can
+safely do business on a customer's behalf?
+
+A customer asks the agent where a parcel is, moves a delivery to another day
+or reports a damaged package. The agent does not touch the database. It gets
+its own short-lived token, calls a small set of scoped tools over MCP, and the
+system of record decides what is allowed. Every answer the agent gives is
+checked by deterministic evaluations.
+
+```text
+customer ──▶ voice (agent) ──client_credentials + private_key_jwt──▶ auth
+                   │
+                   └──MCP, Bearer JWT (aud = this server)──▶ mcp ──▶ core ──▶ postgres
+                                                              └──▶ search
+evals ──scenarios──▶ voice                 system ──compose, seeds, e2e──▶ all of the above
+```
+
+| Repository | Role | Stack |
+|---|---|---|
+| [kervan-voice](https://github.com/onurkoocc/kervan-voice) | The customer agent; text stands in for voice | TypeScript |
+| [kervan-auth](https://github.com/onurkoocc/kervan-auth) | OAuth 2.1 server: `client_credentials`, `private_key_jwt`, client ID metadata documents | TypeScript |
+| [kervan-mcp](https://github.com/onurkoocc/kervan-mcp) | MCP resource server: four customer tools, one scope each, exact audience check | TypeScript |
+| [kervan-core](https://github.com/onurkoocc/kervan-core) | Domain API and system of record: shipments, deliveries, tickets | Java 21, Spring Boot, PostgreSQL |
+| [kervan-search](https://github.com/onurkoocc/kervan-search) | Help-article search behind the `search_help` tool | Python |
+| [kervan-voice-evals](https://github.com/onurkoocc/kervan-voice-evals) | Scenario evaluations of the agent, with an optional judge model | Python |
+| kervan-system (here) | System model, environments, seeds, end-to-end scenarios, design tasks | Docker Compose, Mandate |
+
+## What it shows
+
+- **The agent is a client, not a superuser.** It authenticates with its own
+  key, asks for a token for one resource, and gets only the scopes its tools
+  need: `shipments:read` to look a parcel up, `deliveries:write` to move a
+  delivery.
+- **The tool layer is a contract.** Tool shapes are committed and tested;
+  failures come back as tool results the agent can explain to the customer
+  (`409 not_reschedulable`), never as protocol errors it cannot read.
+- **The business rules stay in the system of record.** Core decides whether a
+  delivery can still move. The agent cannot talk its way past it.
+- **Evals are tests, judges are gauges.** Each scenario checks which tools were
+  called, with which arguments, and what must never be called. A judge model
+  can score tone, but it never changes the exit code.
+- **Boundary bugs are caught end to end.** An audience mismatch between the MCP
+  server and the auth server leaves every unit test green; the end-to-end
+  scenarios fail on it at once.
+- **Production is read through a broker.** `prod_sim` exposes declared,
+  parameterized reads on a replica, with personal data masked by class.
+
+Kervan is also where [Mandate](https://github.com/onurkoocc/mandate)'s work on
+existing systems is built and measured: change sets across repositories,
+boundary evidence, read-only incident reviews and drift between a system
+model and its code. All data is synthetic.
+
+## This repository
+
+The seventh repository owns no service. It holds what ties the six service
+repositories into one system:
 
 - **the system model:** `system/kervan.system.mdt`, a Mandate module with the
   components, the interfaces between them and the environments they run in;
@@ -12,9 +65,9 @@ system:
 - **the end-to-end scenarios** that Mandate's `test.integration` runs;
 - **the design task set** (doc 9 §10.3).
 
-All data is synthetic. The cross-repository contract is `SPEC.md` (in the
-Mandate repository, `examples/kervan/SPEC.md`); this repository implements its
-§10.
+All data is synthetic. The cross-repository contract, `SPEC.md`, is kept with
+Mandate's proof work and is not published; each repository's README describes
+the part of it that repository implements, and this one implements its §10.
 
 ```text
 kervan-system/
@@ -169,5 +222,5 @@ this one. On every push it validates every compose combination
 (`docker compose config`) and checks the shell scripts. The `e2e` job is
 manual (`workflow_dispatch`), because it builds every image: it brings
 staging up under `integration.yml`, which also proves the seed SQL, and runs
-the scenarios. The sibling repositories are private, so checking them out
-needs a read token in the secret `KERVAN_REPOS_TOKEN`.
+the scenarios. Checking out private siblings, in a fork, needs a read token in the secret
+`KERVAN_REPOS_TOKEN`.
