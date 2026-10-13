@@ -34,7 +34,7 @@ for overlay in "$@"; do
   files+=(-f "$(abspath "$(dirname "$overlay")")/$(basename "$overlay")")
 done
 
-# shellcheck disable=SC2329 # invoked by the EXIT trap
+# shellcheck disable=SC2317,SC2329 # invoked by the EXIT trap
 teardown() {
   if [ "${E2E_KEEP:-}" = 1 ]; then
     echo "e2e: left running as compose project $project" >&2
